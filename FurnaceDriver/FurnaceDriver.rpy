@@ -3,7 +3,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c75e472-ce32-437d-96dd-19a64050576e;
 	- _myState = 8192;
 	- _name = "FurnaceDriver";
-	- _modifiedTimeWeak = 11.11.2013::8:45:26;
+	- _modifiedTimeWeak = 11.12.2013::13:55:30;
+	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -29,7 +30,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = -1;
+			- _count = 1;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
@@ -65,7 +66,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID e7ab377b-3fdf-4f13-bdd2-8b7bfa7747b5;
 			- _myState = 8192;
 			- _name = "Model1";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "11.11.2013::8:45:27";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 94355f47-7052-4145-8a44-2af0bf595ae6;
@@ -135,7 +136,28 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 96edf274-27a4-469c-a80b-01248702e317;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID f060e3ba-c667-40b5-aaab-1b10216a95c0;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;

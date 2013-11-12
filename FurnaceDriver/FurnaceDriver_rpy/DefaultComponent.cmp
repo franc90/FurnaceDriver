@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID fac0cab7-476e-4655-8d82-69d9f5a6739e;
 	- _myState = 139264;
 	- _name = "DefaultComponent";
-	- _modifiedTimeWeak = 11.11.2013::8:45:26;
+	- _modifiedTimeWeak = 11.12.2013::13:14:5;
 	- m_buildType = Executable;
 	- m_libraries = "";
 	- m_additionalSources = "";
@@ -33,15 +33,66 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ ICodeGenConfigInfo 
 			- _id = GUID 50a175e0-681c-4836-9d6a-4dbcd1e9f9cb;
 			- _myState = 8192;
-			- _name = "DefaultConfig";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "WebComponents";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "WebFramework";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "GenerateInstrumentationCode";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Animation";
+			- _modifiedTimeWeak = 11.12.2013::13:14:34;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 532f5466-2c91-4980-9acf-d068fd29ca04;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\kubicz10\\Documents\\SCR\\FurnaceDriver\\FurnaceDriver\\DefaultComponent\\DefaultConfig\\DefaultComponent.bat";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 240dd2ea-2c85-43f5-9465-0c5f4a3cc0a6;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\kubicz10\\Documents\\SCR\\FurnaceDriver\\FurnaceDriver\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
 			- _scopeType = Explicit;
 			- _libraries = "";
 			- _additionalSources = "";
 			- _standardHeaders = "";
 			- _includePath = "";
 			- _targetMain = "";
-			- _instrumentation = None;
+			- _instrumentation = Animation;
 			- _timeModel = RealTime;
 			- m_generateActors = 1;
 			- _statechartImplementation = Flat;
@@ -51,13 +102,22 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- size = 0;
 			}
 			- InitialInstances = { IRPYRawContainer 
-				- size = 0;
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 			- _root = { IFolder 
 				- _id = GUID ac553f2a-ef65-4f16-8b2e-72406b022557;
 				- _myState = 8192;
-				- _name = "DefaultConfig";
-				- _modifiedTimeWeak = 1.1.1970::1:0:0;
+				- _name = "Animation";
+				- _modifiedTimeWeak = 11.12.2013::13:14:34;
 				- m_path = "";
 				- Elements = { IRPYRawContainer 
 					- size = 0;
@@ -66,8 +126,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- size = 0;
 				}
 			}
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- weakCGTime = 11.12.2013::13:14:34;
+			- strongCGTime = 11.12.2013::13:14:34;
 			- AnimScopeElements = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -101,7 +161,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 11.11.2013::8:45:26;
-	- strongCGTime = 1.1.1970::1:0:0;
+	- weakCGTime = 11.12.2013::13:14:5;
+	- strongCGTime = 1.2.1990::0:0:0;
 }
 
