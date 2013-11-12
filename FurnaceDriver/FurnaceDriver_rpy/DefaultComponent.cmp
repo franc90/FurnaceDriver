@@ -106,7 +106,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- value = 
 				{ IHandle 
 					- _m2Class = "IClass";
-					- _filename = "Default.sbs";
+					- _filename = "Default\\Default.sbs";
 					- _subsystem = "Default";
 					- _class = "";
 					- _name = "Dispatcher";
@@ -136,15 +136,63 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 2;
+		- size = 8;
 		- value = 
 		{ IHandle 
 			- _m2Class = "ISubsystem";
-			- _filename = "Default.sbs";
+			- _filename = "Default\\Default.sbs";
 			- _subsystem = "";
 			- _class = "";
 			- _name = "Default";
 			- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "Dispatcher";
+			- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "ExternalThermomether";
+			- _id = GUID 9fc0760b-53d4-4cf3-83bd-6d944301eef3;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "WaterTemperatureSensor";
+			- _id = GUID e1ddacfb-52fc-440d-b6b0-2864beed02cb;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "Tachometer";
+			- _id = GUID 4f561431-b6c3-4ba6-842e-24d9693d3050;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "Clock";
+			- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
+		}
+		{ IHandle 
+			- _m2Class = "IClass";
+			- _filename = "Default\\Default.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "LCDDisplay";
+			- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";

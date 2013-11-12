@@ -5,61 +5,33 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 3;
+		- size = 2;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 713;
-				- m_nTop = 556;
-				- m_nRight = 1407;
-				- m_nBottom = 849;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IPanelDiagram";
-				- _filename = "Default\\GUI.pld";
-				- _subsystem = "Default";
-				- _class = "";
-				- _name = "GUI";
-				- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
-			}
-			- _UpLeft = 174 140 ;
-			- _DownRight = 831 374 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 2;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 2;
-				- m_ptMinPositionX = 0;
-				- m_ptMinPositionY = 826;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 275;
-				- m_nTop = 275;
-				- m_nRight = 1415;
-				- m_nBottom = 865;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1037;
+				- m_nBottom = 597;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
-				- _class = "LCDDisplay";
+				- _class = "Dispatcher";
 				- _name = "StatechartDiagram";
-				- _id = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
+				- _id = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			}
-			- _UpLeft = 0 10 ;
-			- _DownRight = 1103 541 ;
+			- _UpLeft = 0 130 ;
+			- _DownRight = 1376 971 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
@@ -71,28 +43,28 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 1384;
-				- m_nBottom = 559;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 286;
+				- m_nTop = 286;
+				- m_nRight = 1397;
+				- m_nBottom = 862;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
-				- _class = "LCDDisplay";
+				- _class = "Tachometer";
 				- _name = "StatechartDiagram";
-				- _id = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
+				- _id = GUID 8ecb8ec9-dbd6-48c2-a957-8b0c4f13442d;
 			}
-			- _UpLeft = 0 413 ;
-			- _DownRight = 1347 913 ;
-			- _instanceName = "Dispatcher[0]->itsLCDDisplay";
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1074 516 ;
+			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\Users\\kubicz10\\Documents\\SCR\\FurnaceDriver\\FurnaceDriver\\FurnaceDriver";
+	- _fullName = "D:\\SCR\\FurnaceDriver\\FurnaceDriver";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}

@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID a40ea312-fe14-4bda-832f-4d14f8a813b7;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -39,7 +39,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID a2c3de6f-f415-42a5-942e-e443b22ee175;
 			- _myState = 8192;
 			- _name = "tick";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -77,7 +77,7 @@ if (seconds>59){
 		{ IReception 
 			- _id = GUID c20f71ce-db7b-4a35-af89-1dd693a73ded;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -94,7 +94,7 @@ if (seconds>59){
 		{ IReception 
 			- _id = GUID c7fcc976-e397-4f63-bce7-cb1c3bb785de;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -116,7 +116,7 @@ if (seconds>59){
 			- _id = GUID 8d3c143b-00f6-4b37-b197-29326f7d553c;
 			- _myState = 8192;
 			- _name = "seconds";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -135,7 +135,7 @@ if (seconds>59){
 			- _id = GUID 62c3a7d0-14e3-45bf-b79d-bc86bb3e823a;
 			- _myState = 8192;
 			- _name = "minutes";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -154,7 +154,7 @@ if (seconds>59){
 			- _id = GUID 969b8c23-415c-4a36-96db-e4eeb83029d6;
 			- _myState = 8192;
 			- _name = "hours";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -178,9 +178,9 @@ if (seconds>59){
 			- _id = GUID 00bc46ef-4180-4e34-9c74-83e55480599c;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _lastID = 9;
-			- weakCGTime = 11.12.2013::16:20:4;
+			- weakCGTime = 11.12.2013::19:4:0;
 			- strongCGTime = 11.12.2013::12:29:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1095,7 +1095,7 @@ hours = params.hours;";
 			- _id = GUID dffcf52d-3969-4fa2-890c-88906abf8cde;
 			- _myState = 8192;
 			- _name = "dispatcher";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::19:4:0;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

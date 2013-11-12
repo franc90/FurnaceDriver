@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.12.2013::19:4:4;
-	- _lastID = 19;
+	- _modifiedTimeWeak = 11.12.2013::22:30:26;
+	- _lastID = 22;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -13,7 +13,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
 		}
 	}
-	- weakCGTime = 11.12.2013::19:4:4;
+	- weakCGTime = 11.12.2013::22:30:26;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID b6e40813-e2b1-4019-901c-081e100ba412;
 	- _eventsBaseID = 18616;
@@ -24,8 +24,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID b6e40813-e2b1-4019-901c-081e100ba412;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
-			- weakCGTime = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::22:22:39;
+			- weakCGTime = 11.12.2013::22:22:39;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -59,7 +59,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 	}
 	- Events = { IRPYRawContainer 
-		- size = 11;
+		- size = 14;
 		- value = 
 		{ IEvent 
 			- _id = GUID f1a4d907-7ebc-4927-a5cd-31b4ad00fb62;
@@ -241,11 +241,38 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IEvent 
 			- _id = GUID 4c620e9c-fa9e-43f2-bfce-3e30460622fa;
 			- _myState = 8192;
-			- _name = "get_temperature";
-			- _modifiedTimeWeak = 11.12.2013::17:57:59;
+			- _name = "update_water_temperature";
+			- _modifiedTimeWeak = 11.12.2013::22:30:26;
+			- _lastID = 1;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
-				- size = 0;
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID 1a5d3b7f-3b23-43d1-8fe8-57a24126a0de;
+					- _myState = 8192;
+					- _name = "value";
+					- _modifiedTimeWeak = 11.12.2013::22:30:26;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 86900407-c7e3-4b4a-8132-6c69716133e2;
+							- _modifiedTimeWeak = 11.12.2013::22:30:26;
+							- _value = "water_temperature";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
 			}
 		}
 		{ IEvent 
@@ -330,6 +357,81 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID af492a91-6364-4f10-a10a-baadae267c04;
+			- _myState = 8192;
+			- _name = "update_external_temperature";
+			- _modifiedTimeWeak = 11.12.2013::22:14:47;
+			- _lastID = 2;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID 79632a48-1b38-4165-b0d2-04b13b1c458b;
+					- _myState = 8192;
+					- _name = "value";
+					- _modifiedTimeWeak = 11.12.2013::22:14:47;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID aeacbb3b-ae55-416e-aad3-e69565395571;
+							- _modifiedTimeWeak = 11.12.2013::22:14:47;
+							- _value = "temperature";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+			}
+		}
+		{ IEvent 
+			- _id = GUID 409cbfd9-decc-4366-8ab6-2259c58157cb;
+			- _myState = 8192;
+			- _name = "get_water_temperature";
+			- _modifiedTimeWeak = 11.12.2013::22:6:32;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 7dda2705-5b1f-4b06-8b7f-573b99c064d1;
+			- _myState = 8192;
+			- _name = "update_speed";
+			- _modifiedTimeWeak = 11.12.2013::22:22:39;
+			- _lastID = 1;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IArgument 
+					- _id = GUID ee2bcb77-5f85-4361-93d6-cec1e70f5160;
+					- _myState = 8192;
+					- _name = "value";
+					- _modifiedTimeWeak = 11.12.2013::22:22:39;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
 			}
 		}
 	}
