@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 	- _myState = 8192;
 	- _name = "Dispatcher";
-	- _modifiedTimeWeak = 11.12.2013::16:20:4;
+	- _modifiedTimeWeak = 11.12.2013::16:22:31;
 	- _lastID = 1;
-	- weakCGTime = 11.12.2013::16:20:4;
+	- weakCGTime = 11.12.2013::16:22:31;
 	- strongCGTime = 11.12.2013::12:42:27;
 	- Operations = { IRPYRawContainer 
 		- size = 3;
@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1f65b33a-5a14-4cf4-9a30-d9bd2c8c5276;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -38,7 +38,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID bca83137-2fb6-4164-aec3-b46b7ae2d1e8;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 2b009180-6b6d-4dba-8b6b-b0a5cd732a22;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -78,16 +78,16 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID a60f1be3-7880-4ac7-b571-a8295bdc826e;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.12.2013::14:19:22;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _lastID = 7;
-			- weakCGTime = 11.12.2013::14:19:22;
+			- weakCGTime = 11.12.2013::16:22:31;
 			- strongCGTime = 11.12.2013::12:42:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
-			- _defNumber = 3;
+			- _defNumber = 4;
 			- Transitions = { IRPYRawContainer 
 				- size = 5;
 				- value = 
@@ -204,11 +204,11 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 			}
 			- States = { IRPYRawContainer 
-				- size = 4;
+				- size = 5;
 				- value = 
 				{ IState 
 					- _id = GUID 77463e02-d7e8-4349-b28c-73617d5c9641;
-					- _modifiedTimeWeak = 11.12.2013::12:43:54;
+					- _modifiedTimeWeak = 11.12.2013::16:22:31;
 					- _parent = ;
 					- _defaultTrans = GUID ff7189c5-08c3-4005-9c1d-556d5ada961a;
 				}
@@ -233,8 +233,16 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _parent = GUID 77463e02-d7e8-4349-b28c-73617d5c9641;
 					- _defaultTrans = ;
 				}
+				{ IState 
+					- _id = GUID c4d48ddd-331a-49d6-8864-9a9c1f6a7801;
+					- _myState = 2048;
+					- _name = "state_3";
+					- _modifiedTimeWeak = 11.12.2013::16:22:31;
+					- _parent = GUID 77463e02-d7e8-4349-b28c-73617d5c9641;
+					- _defaultTrans = ;
+				}
 			}
-			- _version = 11.12.2013::15:19:22;
+			- _version = 11.12.2013::17:22:31;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			- Views = { IRPYRawContainer 
@@ -311,8 +319,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.12.2013::14:18:54;
-					- _lastModifiedTime = "11.12.2013::14:19:22";
+					- _modifiedTimeWeak = 11.12.2013::16:22:31;
+					- _lastModifiedTime = "11.12.2013::16:22:31";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 1dac47cc-5b6e-426f-acac-173ec62ce53a;
 						- m_type = 0;
@@ -336,7 +344,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						}
 						- m_drawBehavior = 4096;
 						- m_bIsPreferencesInitialized = 1;
-						- elementList = 9;
+						- elementList = 10;
 						{ CGIState 
 							- _id = GUID be06766f-2223-4016-b6d5-c41bbd9a31a4;
 							- m_type = 5;
@@ -924,6 +932,56 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- m_nInheritanceMask = 0;
 							- m_bShowName = 1;
 						}
+						{ CGIState 
+							- _id = GUID a16d79d6-13bc-4456-9168-64c89cb62fb3;
+							- m_type = 8;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IState";
+								- _id = GUID c4d48ddd-331a-49d6-8864-9a9c1f6a7801;
+							}
+							- m_pParent = GUID be06766f-2223-4016-b6d5-c41bbd9a31a4;
+							- m_name = { CGIText 
+								- m_str = "state_3";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 4104;
+							- m_transform = 0.0875912 0 0 0.0566038 905 214 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- Compartments = { IRPYRawContainer 
+								- size = 0;
+							}
+							- nAndLineCount = 0;
+							- m_pInheritsFrom = { IHandle 
+								- _m2Class = "";
+							}
+							- m_nInheritanceMask = 0;
+							- m_pDefaultComponentRelation = ;
+						}
 						
 						- m_access = 'Z';
 						- m_modified = 'N';
@@ -955,7 +1013,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 00f44595-155e-4cc7-8032-b67ec19ab3b8;
 			- _myState = 10240;
 			- _name = "itsClock";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -978,7 +1036,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
 			- _myState = 10240;
 			- _name = "itsLCDDisplay";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
+			- _modifiedTimeWeak = 11.12.2013::16:22:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

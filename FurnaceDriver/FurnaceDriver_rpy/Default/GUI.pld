@@ -57,7 +57,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	}
 	- _name = "GUI";
 	- _modifiedTimeWeak = 1.2.1990::0:0:0;
-	- _lastModifiedTime = "11.12.2013::16:20:4";
+	- _lastModifiedTime = "11.12.2013::19:26:16";
 	- _graphicChart = { CGIClassChart 
 		- _id = GUID 3f61c4c4-ff8f-4ec9-b3a9-fdeab2ab25e4;
 		- m_type = 0;
@@ -118,13 +118,43 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 		{ CGIActiveX 
 			- _id = GUID d8961fc0-a523-4799-b366-65bc6676c1b5;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Led";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ActiveXProperties@Child.ActiveXControl";
+										- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 219;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IAttribute";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "hoursLed";
+				- _id = GUID d32a0007-aa29-4211-bc6d-c6accbd80ee6;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "led_0";
+				- m_str = "HOURS_LED";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -137,7 +167,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000126238 0 0 0.000113298 321 155 ;
+			- m_transform = 0.000126238 0 0 0.000113298 281 183 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -145,21 +175,68 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "led_0";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.hoursLed";
+			- m_csName = "HOURS_LED";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 		}
 		{ CGIActiveX 
 			- _id = GUID 0216153a-e0ac-411f-a857-8d2533ecaf6e;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Led";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ActiveXProperties@Child.ActiveXControl";
+										- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 219;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IAttribute";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "minutesLed";
+				- _id = GUID ab3c094a-e0b8-4b5f-b70f-753e2d58264d;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "led_1";
+				- m_str = "MINUTES_LED";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -172,7 +249,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000126238 0 0 0.000113298 341 155 ;
+			- m_transform = 0.000126238 0 0 0.000113298 387 184 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -180,21 +257,68 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "led_1";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.minutesLed";
+			- m_csName = "MINUTES_LED";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 		}
 		{ CGIActiveX 
 			- _id = GUID f8888dfc-1510-4d51-b0f0-d7664f893423;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Led";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ActiveXProperties@Child.ActiveXControl";
+										- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 219;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IAttribute";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "fanLed";
+				- _id = GUID e7b33b66-c00e-4a86-8549-2e61d3036021;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "led_2";
+				- m_str = "FAN_LED";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -207,7 +331,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000126238 0 0 0.000113298 432 159 ;
+			- m_transform = 0.000126238 0 0 0.000113298 495 183 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -215,21 +339,68 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "led_2";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.fanLed";
+			- m_csName = "FAN_LED";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 		}
 		{ CGIActiveX 
 			- _id = GUID 11e12daa-c5ba-4fa1-8303-15b7b35f4f9e;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Led";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ActiveXProperties@Child.ActiveXControl";
+										- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 219;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IAttribute";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "temperatureLed";
+				- _id = GUID 3b59340a-93dd-49df-8752-45b6b1e1d929;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "led_3";
+				- m_str = "TEMP_LED";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -242,7 +413,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000126238 0 0 0.000113298 454 158 ;
+			- m_transform = 0.000126238 0 0 0.000113298 603 182 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -250,21 +421,68 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "led_3";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.temperatureLed";
+			- m_csName = "TEMP_LED";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 		}
 		{ CGIActiveX 
 			- _id = GUID 41618c03-86da-423b-bf6c-7d5bcd5d960a;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Led";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ActiveXProperties@Child.ActiveXControl";
+										- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 219;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IAttribute";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "fanOffLed";
+				- _id = GUID 068cf991-8def-4a60-a61e-7610ad5b5968;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "led_4";
+				- m_str = "FAN_OFF_LED";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -277,7 +495,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000126238 0 0 0.000113298 477 156 ;
+			- m_transform = 0.000126238 0 0 0.000113298 712 181 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -285,10 +503,27 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "led_4";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.fanOffLed";
+			- m_csName = "FAN_OFF_LED";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
 		}
 		{ CGIMFCCtrl 
@@ -376,13 +611,43 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 		{ CGIMFCCtrl 
 			- _id = GUID 47d82f68-7634-46d5-ab19-f2348b15f417;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "PanelDiagram";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "PushButton";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ButtonFont";
+										- _Value = "Arial 10 NoBold NoItalic";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 227;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IReception";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "decrease_button_click()";
+				- _id = GUID e05f05f0-b862-466a-8f7e-3ae231bc5660;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "pushbutton_1";
+				- m_str = "MINUS";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -403,22 +668,69 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "pushbutton_1";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.decrease_button_click";
+			- m_csName = "MINUS";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
-			- m_csButtonCaption = "Push";
+			- m_csButtonCaption = "Minus";
 		}
 		{ CGIMFCCtrl 
 			- _id = GUID bb0d767e-110f-4a28-b301-ea6068f5c5ea;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "PanelDiagram";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "PushButton";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ButtonFont";
+										- _Value = "Arial 10 NoBold NoItalic";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 227;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IReception";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "increase_button_click()";
+				- _id = GUID d82e7f53-7e78-43b8-9d07-e91ea871640f;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "pushbutton_2";
+				- m_str = "PLUS";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -439,22 +751,69 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "pushbutton_2";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.increase_button_click";
+			- m_csName = "PLUS";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
-			- m_csButtonCaption = "Push";
+			- m_csButtonCaption = "Plus";
 		}
 		{ CGIMFCCtrl 
 			- _id = GUID 610913e7-3581-4757-bd35-b8584315177e;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "PanelDiagram";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "PushButton";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ButtonFont";
+										- _Value = "Arial 10 NoBold NoItalic";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 227;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IReception";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "clock_button_click()";
+				- _id = GUID 1ac88db9-8f97-493b-9480-b4c97e615574;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "pushbutton_3";
+				- m_str = "CLOCK";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -475,22 +834,69 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "pushbutton_3";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.clock_button_click";
+			- m_csName = "CLOCK";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
-			- m_csButtonCaption = "Push";
+			- m_csButtonCaption = "Clock";
 		}
 		{ CGIMFCCtrl 
 			- _id = GUID ea024ed6-9fd3-4a1d-934e-45937c6d95c1;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "PanelDiagram";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "PushButton";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ButtonFont";
+										- _Value = "Arial 10 NoBold NoItalic";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 			- m_type = 227;
 			- m_pModelObject = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IReception";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "LCDDisplay";
+				- _name = "fan_button_click()";
+				- _id = GUID ae993f72-acca-4149-98a1-23a185e34592;
 			}
 			- m_pParent = GUID faac3305-5e3c-4156-acbb-91e88d3d5162;
 			- m_name = { CGIText 
-				- m_str = "pushbutton_4";
+				- m_str = "FAN";
 				- m_style = "Arial" 10 0 0 0 1 ;
 				- m_color = { IColor 
 					- m_fgColor = 0;
@@ -511,12 +917,29 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- Compartments = { IRPYRawContainer 
 				- size = 0;
 			}
-			- m_csModelObjPath = "";
-			- m_csName = "pushbutton_4";
+			- m_csModelObjPath = "Default.Dispatcher[0].itsLCDDisplay.fan_button_click";
+			- m_csName = "FAN";
 			- m_PartsArray = { IRPYRawContainer 
-				- size = 0;
+				- size = 2;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IPart";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "Dispatcher";
+					- _name = "itsLCDDisplay";
+					- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+				}
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
 			}
-			- m_csButtonCaption = "Push";
+			- m_csButtonCaption = "Fan";
 		}
 		{ CGIActiveX 
 			- _id = GUID 86ac02d9-6eb8-4d69-b99f-319854111839;
@@ -733,7 +1156,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000291319 0 0 0.000278887 599 213 ;
+			- m_transform = 0.000291319 0 0 0.000278887 599 216 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;
@@ -897,7 +1320,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- m_nOrientationCtrlPt = 1;
 			}
 			- m_drawBehavior = 4096;
-			- m_transform = 0.000291319 0 0 0.000278887 707 217 ;
+			- m_transform = 0.000291319 0 0 0.000278887 707 216 ;
 			- m_bIsPreferencesInitialized = 1;
 			- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 			- m_nNameFormat = 0;

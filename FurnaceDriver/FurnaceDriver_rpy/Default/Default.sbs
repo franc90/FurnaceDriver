@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.12.2013::16:20:4;
-	- _lastID = 13;
+	- _modifiedTimeWeak = 11.12.2013::19:4:4;
+	- _lastID = 19;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -13,12 +13,12 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
 		}
 	}
-	- weakCGTime = 11.12.2013::16:20:4;
+	- weakCGTime = 11.12.2013::19:4:4;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID b6e40813-e2b1-4019-901c-081e100ba412;
 	- _eventsBaseID = 18616;
 	- Classes = { IRPYRawContainer 
-		- size = 8;
+		- size = 7;
 		- value = 
 		{ IClass 
 			- _id = GUID b6e40813-e2b1-4019-901c-081e100ba412;
@@ -57,13 +57,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- fileName = "LCDDisplay";
 			- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
 		}
-		{ IClass 
-			- fileName = "Keyboard";
-			- _id = GUID ea9af8ef-52af-4c47-b928-8850e4eba154;
-		}
 	}
 	- Events = { IRPYRawContainer 
-		- size = 6;
+		- size = 11;
 		- value = 
 		{ IEvent 
 			- _id = GUID f1a4d907-7ebc-4927-a5cd-31b4ad00fb62;
@@ -213,16 +209,6 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 		}
 		{ IEvent 
-			- _id = GUID 8a4ce0e6-bc34-42f6-9241-6a7e92618654;
-			- _myState = 8192;
-			- _name = "get_clock";
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
-			- _virtual = 0;
-			- Args = { IRPYRawContainer 
-				- size = 0;
-			}
-		}
-		{ IEvent 
 			- _id = GUID d480a704-5562-486b-857f-445a442961cd;
 			- _myState = 8192;
 			- _name = "new_time";
@@ -252,7 +238,101 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- size = 0;
 			}
 		}
+		{ IEvent 
+			- _id = GUID 4c620e9c-fa9e-43f2-bfce-3e30460622fa;
+			- _myState = 8192;
+			- _name = "get_temperature";
+			- _modifiedTimeWeak = 11.12.2013::17:57:59;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID fc24a4b5-3f32-4401-b0ea-ebb19558d8d6;
+			- _myState = 8192;
+			- _name = "temperature_changed";
+			- _modifiedTimeWeak = 11.12.2013::17:59:54;
+			- _lastID = 2;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IArgument 
+					- _id = GUID 5b7b3a1e-c811-47be-abbb-2de3338ca98a;
+					- _myState = 8192;
+					- _name = "measuredTemp";
+					- _modifiedTimeWeak = 11.12.2013::17:59:24;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+				{ IArgument 
+					- _id = GUID 6c1ffec8-01c4-4d8d-9c50-e75552e07159;
+					- _myState = 8192;
+					- _name = "expectedTemp";
+					- _modifiedTimeWeak = 11.12.2013::17:59:54;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 3b5a0555-e8e5-4b86-9ea1-95ae819b6564;
+					}
+					- _isOrdered = 0;
+					- _argumentDirection = In;
+				}
+			}
+		}
+		{ IEvent 
+			- _id = GUID 034040be-85c7-44a2-8924-2b72595f8d1d;
+			- _myState = 8192;
+			- _name = "increase_button_click";
+			- _modifiedTimeWeak = 11.12.2013::18:11:46;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 77c9962b-ccb5-4e1e-8117-c2eee7349c99;
+			- _myState = 8192;
+			- _name = "decrease_button_click";
+			- _modifiedTimeWeak = 11.12.2013::18:11:57;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 9157562c-f2cc-437c-94a0-8d362ed05554;
+			- _myState = 8192;
+			- _name = "clock_button_click";
+			- _modifiedTimeWeak = 11.12.2013::18:12:8;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID a100ecbc-86ba-4348-a60d-ae01c39e85c4;
+			- _myState = 8192;
+			- _name = "fan_button_click";
+			- _modifiedTimeWeak = 11.12.2013::18:12:15;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
 	}
-	- _configurationRelatedTime = 11.12.2013::13:31:35;
+	- _configurationRelatedTime = 11.12.2013::19:4:4;
 }
 

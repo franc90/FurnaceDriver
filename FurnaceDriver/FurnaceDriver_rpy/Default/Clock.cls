@@ -11,12 +11,12 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
 	- _myState = 8192;
 	- _name = "Clock";
-	- _modifiedTimeWeak = 11.12.2013::16:20:4;
+	- _modifiedTimeWeak = 11.12.2013::19:4:0;
 	- _lastID = 6;
-	- weakCGTime = 11.12.2013::16:20:4;
+	- weakCGTime = 11.12.2013::19:4:0;
 	- strongCGTime = 11.12.2013::12:29:43;
 	- Operations = { IRPYRawContainer 
-		- size = 5;
+		- size = 4;
 		- value = 
 		{ IReception 
 			- _id = GUID a40ea312-fe14-4bda-832f-4d14f8a813b7;
@@ -72,23 +72,6 @@ if (seconds>59){
 		}
 	}
 }";
-			}
-		}
-		{ IReception 
-			- _id = GUID 5862aee1-c168-4b4c-b658-c313a7b8402f;
-			- _myState = 8192;
-			- _modifiedTimeWeak = 11.12.2013::16:20:4;
-			- _virtual = 0;
-			- Args = { IRPYRawContainer 
-				- size = 0;
-			}
-			- _event = { IHandle 
-				- _m2Class = "IEvent";
-				- _filename = "Default\\Default.sbs";
-				- _subsystem = "Default";
-				- _class = "";
-				- _name = "get_clock()";
-				- _id = GUID 8a4ce0e6-bc34-42f6-9241-6a7e92618654;
 			}
 		}
 		{ IReception 
@@ -195,9 +178,9 @@ if (seconds>59){
 			- _id = GUID 00bc46ef-4180-4e34-9c74-83e55480599c;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.12.2013::13:51:50;
+			- _modifiedTimeWeak = 11.12.2013::16:20:4;
 			- _lastID = 9;
-			- weakCGTime = 11.12.2013::13:51:50;
+			- weakCGTime = 11.12.2013::16:20:4;
 			- strongCGTime = 11.12.2013::12:29:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
