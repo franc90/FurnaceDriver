@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c75e472-ce32-437d-96dd-19a64050576e;
 	- _myState = 8192;
 	- _name = "FurnaceDriver";
-	- _modifiedTimeWeak = 11.12.2013::13:55:30;
+	- _modifiedTimeWeak = 11.12.2013::16:20:4;
 	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	}
 	- _defaultSubsystem = { ISubsystemHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "Default.sbs";
+		- _filename = "Default\\Default.sbs";
 		- _subsystem = "";
 		- _class = "";
 		- _name = "Default";
@@ -50,6 +50,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		- value = 
 		{ ISubsystem 
 			- fileName = "Default";
+			- _persistAs = "Default";
 			- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
 		}
 		{ IProfile 
@@ -97,7 +98,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- m_type = 78;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
-						- _filename = "Default.sbs";
+						- _filename = "Default\\Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
 						- _name = "TopLevel";
@@ -181,7 +182,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- _defaultSubsystem = { IHandle 
 				- _m2Class = "ISubsystem";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "";
 				- _class = "";
 				- _name = "Default";

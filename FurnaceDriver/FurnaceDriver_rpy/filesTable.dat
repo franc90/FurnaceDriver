@@ -1,10 +1,18 @@
 I-Logix-RPY-Archive version 8.8.0 * 6107223
 
 - filesTable = { IRPYRawContainer 
-	- size = 3;
+	- size = 11;
 	- value = "FurnaceDriver.rpy" ""
-	"FurnaceDriver_rpy\\Default.sbs" "Default"
 	"FurnaceDriver_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"FurnaceDriver_rpy\\Default\\Clock.cls" "Default::Clock"
+	"FurnaceDriver_rpy\\Default\\Default.sbs" "Default"
+	"FurnaceDriver_rpy\\Default\\Dispatcher.cls" "Default::Dispatcher"
+	"FurnaceDriver_rpy\\Default\\ExternalThermomether.cls" "Default::ExternalThermomether"
+	"FurnaceDriver_rpy\\Default\\GUI.pld" "Default::GUI"
+	"FurnaceDriver_rpy\\Default\\Keyboard.cls" "Default::Keyboard"
+	"FurnaceDriver_rpy\\Default\\LCDDisplay.cls" "Default::LCDDisplay"
+	"FurnaceDriver_rpy\\Default\\Tachometer.cls" "Default::Tachometer"
+	"FurnaceDriver_rpy\\Default\\WaterTemperatureSensor.cls" "Default::WaterTemperatureSensor"
 	
 }
 

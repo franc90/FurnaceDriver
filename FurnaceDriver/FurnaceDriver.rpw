@@ -24,7 +24,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "Clock";
 				- _name = "StatechartDiagram";
@@ -52,7 +52,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "Clock";
 				- _name = "StatechartDiagram";
@@ -80,7 +80,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "Dispatcher";
 				- _name = "StatechartDiagram";
@@ -108,7 +108,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "Dispatcher";
 				- _name = "StatechartDiagram";
@@ -136,7 +136,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IPanelDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\GUI.pld";
 				- _subsystem = "Default";
 				- _class = "";
 				- _name = "GUI";
@@ -164,7 +164,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "LCDDisplay";
 				- _name = "StatechartDiagram";
@@ -192,7 +192,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
+				- _filename = "Default\\Default.sbs";
 				- _subsystem = "Default";
 				- _class = "LCDDisplay";
 				- _name = "StatechartDiagram";
