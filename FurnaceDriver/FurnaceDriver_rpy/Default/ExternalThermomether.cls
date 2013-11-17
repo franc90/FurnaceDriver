@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 9fc0760b-53d4-4cf3-83bd-6d944301eef3;
 	- _myState = 8192;
 	- _name = "ExternalThermomether";
-	- _modifiedTimeWeak = 11.17.2013::14:34:55;
+	- _modifiedTimeWeak = 11.17.2013::23:56:23;
 	- _lastID = 3;
-	- weakCGTime = 11.17.2013::14:34:55;
+	- weakCGTime = 11.17.2013::23:56:23;
 	- strongCGTime = 11.12.2013::22:12:17;
 	- Operations = { IRPYRawContainer 
 		- size = 1;
@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 60ce9059-0d77-41bd-bc98-415ce76de44d;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.17.2013::19:23:45;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -43,7 +43,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID cb33704f-e27d-4077-a36d-74068cf37ece;
 			- _myState = 8192;
 			- _name = "temperature";
-			- _modifiedTimeWeak = 11.17.2013::10:50:25;
+			- _modifiedTimeWeak = 11.17.2013::19:23:45;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -62,7 +62,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 9e2a77e5-03c5-4599-bdfd-80c43c74f517;
 			- _myState = 8192;
 			- _name = "isOk";
-			- _modifiedTimeWeak = 11.17.2013::11:22:44;
+			- _modifiedTimeWeak = 11.17.2013::19:23:45;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -86,9 +86,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 88730d61-c012-4616-a74f-53adf11d799c;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.17.2013::14:34:55;
+			- _modifiedTimeWeak = 11.17.2013::23:56:23;
 			- _lastID = 14;
-			- weakCGTime = 11.17.2013::14:34:55;
+			- weakCGTime = 11.17.2013::23:56:23;
 			- strongCGTime = 11.12.2013::22:12:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -181,7 +181,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _itsTrigger = NULL;
 						- _itsGuard = { IGuard 
 							- _id = GUID 2217b38d-4619-4bb9-b880-d3f809892e69;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "isOk==true";
 						}
 						- _itsAction = NULL;
@@ -201,7 +201,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _itsTrigger = NULL;
 						- _itsGuard = { IGuard 
 							- _id = GUID 944a368b-df6b-4001-9f4c-830544e532de;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "isOk==false";
 						}
 						- _itsAction = NULL;
@@ -217,7 +217,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _modifiedTimeWeak = 11.17.2013::11:23:3;
 					- _itsLabel = { ILabel 
 						- _id = GUID 5c12a0b7-ebf3-4da5-9793-76403fc56b73;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -233,7 +233,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _modifiedTimeWeak = 11.17.2013::14:5:18;
 					- _itsLabel = { ILabel 
 						- _id = GUID 16dce24e-ef4e-4811-a8fd-d8fb23af2258;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -252,7 +252,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _modifiedTimeWeak = 11.17.2013::14:24:5;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 2493df84-0879-4922-9ca2-5168ef28c112;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "dispatcher_init_finished";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -299,14 +299,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IState 
 					- _id = GUID 94995aa8-0cab-4fc6-9a5e-b82759879cb6;
 					- _name = "ready";
-					- _modifiedTimeWeak = 11.17.2013::14:5:58;
+					- _modifiedTimeWeak = 11.17.2013::23:1:31;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _defaultTrans = ;
 					- _entryAction = { IAction 
 						- _id = GUID 130c486d-4fbd-479e-bcae-dc7fbbf78869;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
-						- _body = "isOk = true;";
+						- _modifiedTimeWeak = 11.17.2013::23:1:31;
+						- _body = "isOk = true; ";
 					}
 				}
 				{ IState 
@@ -320,18 +320,18 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 0de9977c-7729-4c8e-83fb-c4f5816ea23b;
 					- _myState = 2048;
 					- _name = "sendaction_2";
-					- _modifiedTimeWeak = 11.17.2013::14:34:55;
+					- _modifiedTimeWeak = 11.17.2013::23:56:23;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID be70e2a4-a5eb-41fd-ae11-fb25e3e7d191;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.17.2013::14:34:55;
+						- _modifiedTimeWeak = 11.17.2013::23:56:23;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
-							- _id = GUID ad710870-2aab-4f12-b8ac-9ebaf8935d06;
+							- _id = GUID f6d44dba-8aab-4e48-8575-ad29a79b31f3;
 						}
 						- m_hEvent = { IEventHandle 
 							- _m2Class = "IEvent";
@@ -349,6 +349,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- _class = "";
 							- _name = "update_external_temperature(int).0";
 							- _id = GUID a1e83124-9513-4c42-9de4-6307f487d7be;
+							- _data = " temperature";
 						}
 						
 					}
@@ -357,18 +358,18 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID bff7fed4-a0f5-4371-8053-3cbffbd89f0d;
 					- _myState = 2048;
 					- _name = "sendaction_3";
-					- _modifiedTimeWeak = 11.17.2013::14:34:55;
+					- _modifiedTimeWeak = 11.17.2013::23:56:23;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 823a29a5-5c90-4d7d-b65f-4f636f118a8f;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.17.2013::14:34:55;
+						- _modifiedTimeWeak = 11.17.2013::23:56:23;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
-							- _id = GUID ad710870-2aab-4f12-b8ac-9ebaf8935d06;
+							- _id = GUID f6d44dba-8aab-4e48-8575-ad29a79b31f3;
 						}
 						- m_hEvent = { IEventHandle 
 							- _m2Class = "IEvent";
@@ -383,7 +384,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IState 
 					- _id = GUID 72311340-509a-419f-bb7b-86b6568cf531;
 					- _name = "init";
-					- _modifiedTimeWeak = 11.17.2013::14:5:18;
+					- _modifiedTimeWeak = 11.17.2013::23:1:46;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _defaultTrans = ;
 				}
@@ -391,18 +392,18 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 031ba3ff-9454-4954-b2c0-d63b36eef1da;
 					- _myState = 2048;
 					- _name = "sendaction_5";
-					- _modifiedTimeWeak = 11.17.2013::14:34:55;
+					- _modifiedTimeWeak = 11.17.2013::23:56:23;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 89701e15-5506-496d-900d-6e6c9f6b9016;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.17.2013::14:34:55;
+						- _modifiedTimeWeak = 11.17.2013::23:56:23;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
-							- _id = GUID ad710870-2aab-4f12-b8ac-9ebaf8935d06;
+							- _id = GUID f6d44dba-8aab-4e48-8575-ad29a79b31f3;
 						}
 						- m_hEvent = { IEventHandle 
 							- _m2Class = "IEvent";
@@ -415,7 +416,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					}
 				}
 			}
-			- _version = 11.17.2013::15:34:55;
+			- _version = 11.18.2013::0:56:23;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 8a55ff2a-3681-423f-8651-8cbba7db6c34;
 			- Views = { IRPYRawContainer 
@@ -566,8 +567,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.17.2013::14:34:4;
-					- _lastModifiedTime = "11.17.2013::14:34:55";
+					- _modifiedTimeWeak = 11.17.2013::23:53:29;
+					- _lastModifiedTime = "11.17.2013::23:56:23";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 1197ccc3-79ac-40b2-a200-f9d637c8e657;
 						- m_type = 0;
@@ -690,6 +691,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 							- m_nInheritanceMask = 0;
 							- m_pDefaultComponentRelation = ;
+							- m_moveAndLineTimeStamp = 1.2.1990::0:0:0;
 						}
 						{ CGITrans 
 							- _id = GUID 158f6a56-82c5-470e-a7b6-02f4c14852d6;
@@ -909,8 +911,13 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 											{ IPropertyMetaclass 
 												- _Name = "Graphics";
 												- Properties = { IRPYRawContainer 
-													- size = 1;
+													- size = 2;
 													- value = 
+													{ IProperty 
+														- _Name = "FitBoxToItsTextuals";
+														- _Value = "False";
+														- _Type = Bool;
+													}
 													{ IProperty 
 														- _Name = "ShowLabels";
 														- _Value = "";
@@ -962,7 +969,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.145985 0 0 0.0377358 338 289 ;
+							- m_transform = 0.259853 0 0 0.0377358 338 289 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -1836,10 +1843,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		- size = 1;
 		- value = 
 		{ IAssociationEnd 
-			- _id = GUID ad710870-2aab-4f12-b8ac-9ebaf8935d06;
+			- _id = GUID f6d44dba-8aab-4e48-8575-ad29a79b31f3;
 			- _myState = 8192;
 			- _name = "parent";
-			- _modifiedTimeWeak = 11.17.2013::10:50:25;
+			- _modifiedTimeWeak = 11.17.2013::20:19:41;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -1850,7 +1857,12 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 			}
 			- _inverse = { IHandle 
-				- _m2Class = "";
+				- _m2Class = "IPart";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Dispatcher";
+				- _name = "itsExternalThermomether";
+				- _id = GUID 2f912eb5-4846-4d96-b973-853c49579546;
 			}
 			- _linkName = "";
 			- _linkType = Assoc;
