@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
 	- _myState = 8192;
 	- _name = "LCDDisplay";
-	- _modifiedTimeWeak = 11.18.2013::9:56:17;
+	- _modifiedTimeWeak = 11.19.2013::13:23:27;
 	- _lastID = 11;
-	- weakCGTime = 11.18.2013::9:56:17;
+	- weakCGTime = 11.19.2013::13:23:27;
 	- strongCGTime = 11.12.2013::14:1:49;
 	- Operations = { IRPYRawContainer 
 		- size = 8;
@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID ea3c3177-2f67-48af-bde0-820c33b45637;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -38,7 +38,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1ef94a22-e72b-465d-b3f9-4088b3a882d2;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 349c9da9-7712-49af-9dd8-3aecc09ef6b9;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -72,7 +72,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID e05f05f0-b862-466a-8f7e-3ae231bc5660;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -89,7 +89,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID d82e7f53-7e78-43b8-9d07-e91ea871640f;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -106,7 +106,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID ae993f72-acca-4149-98a1-23a185e34592;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -123,7 +123,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1ac88db9-8f97-493b-9480-b4c97e615574;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -140,7 +140,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID c84683e9-b1ed-4813-8027-3c146cbefdd5;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -162,7 +162,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 845849c8-1f7c-4b29-a399-ed4544e8b570;
 			- _myState = 8192;
 			- _name = "firstCharacter";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -190,7 +190,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 6f7b5003-2c3e-4678-88bc-85003428efce;
 			- _myState = 8192;
 			- _name = "secondCharacter";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -218,7 +218,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID fc6c78cc-9831-46ff-aa33-ffc256f57685;
 			- _myState = 8192;
 			- _name = "thirdCharacter";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -246,7 +246,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 63e5fade-6f9c-4f15-926a-34613e2acfca;
 			- _myState = 8192;
 			- _name = "fourthCharacter";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -274,7 +274,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 9070c9e3-bfeb-483b-9d3a-0393223eeddb;
 			- _myState = 8192;
 			- _name = "fifthCharacter";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -302,7 +302,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID d32a0007-aa29-4211-bc6d-c6accbd80ee6;
 			- _myState = 8192;
 			- _name = "hoursLed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -321,7 +321,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID ab3c094a-e0b8-4b5f-b70f-753e2d58264d;
 			- _myState = 8192;
 			- _name = "minutesLed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -340,7 +340,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID e7b33b66-c00e-4a86-8549-2e61d3036021;
 			- _myState = 8192;
 			- _name = "fanLed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -359,7 +359,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 068cf991-8def-4a60-a61e-7610ad5b5968;
 			- _myState = 8192;
 			- _name = "fanOffLed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -378,7 +378,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 3b59340a-93dd-49df-8752-45b6b1e1d929;
 			- _myState = 8192;
 			- _name = "temperatureLed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -402,9 +402,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID bb3a4ec6-fb69-4af3-8a5a-83c798268d03;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.18.2013::9:56:17;
+			- _modifiedTimeWeak = 11.19.2013::13:23:27;
 			- _lastID = 89;
-			- weakCGTime = 11.18.2013::9:56:17;
+			- weakCGTime = 11.19.2013::13:23:27;
 			- strongCGTime = 11.12.2013::14:1:49;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1813,7 +1813,7 @@ dispatcher.gen(new get_time());";
 					- _modifiedTimeWeak = 11.18.2013::8:41:41;
 					- _itsLabel = { ILabel 
 						- _id = GUID c844bd6f-a69f-448e-a7fd-60f9ccd2c9e6;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1829,7 +1829,7 @@ dispatcher.gen(new get_time());";
 					- _modifiedTimeWeak = 11.18.2013::8:41:46;
 					- _itsLabel = { ILabel 
 						- _id = GUID 6c064c82-51e5-4789-9a35-fb48b4ddfe77;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1846,7 +1846,7 @@ dispatcher.gen(new get_time());";
 						- _modifiedTimeWeak = 11.18.2013::8:54:57;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 4426b17b-3c2d-4574-91d7-3853b99c76c6;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "time_changed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -1861,7 +1861,7 @@ dispatcher.gen(new get_time());";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 0dacf0fe-86bf-49e1-a43e-c9f4df8bcf03;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "firstCharacter = \"\" + ((int)(params.hours/10));                    
 secondCharacter = \"\" + ((int)(params.hours%10));
 System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondCharacter);";
@@ -1879,7 +1879,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 						- _modifiedTimeWeak = 11.18.2013::8:55:21;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 56881674-bfd2-4a99-b9a3-a6c3be5b2689;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "time_changed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -1894,7 +1894,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 59c0a7a7-3487-4154-b86a-6ee0b1f2cf2c;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "firstCharacter = \"\" + ((int)(params.seconds/10));
 secondCharacter = \"\" + ((int)(params.seconds%10));
 System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondCharacter);";
@@ -1911,7 +1911,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:9;
 					- _itsLabel = { ILabel 
 						- _id = GUID 8b9760a0-439e-44f7-8abf-b6ee057108c7;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1927,7 +1927,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:13;
 					- _itsLabel = { ILabel 
 						- _id = GUID e2e8d90c-40d8-44c2-9b09-39d96eb47131;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1943,7 +1943,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:16;
 					- _itsLabel = { ILabel 
 						- _id = GUID 22c90f50-6631-4aac-b1b1-51385fb00ef9;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1959,7 +1959,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:19;
 					- _itsLabel = { ILabel 
 						- _id = GUID 5a7f29c0-79f4-4ea5-9e98-945728c5896e;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1975,7 +1975,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:33;
 					- _itsLabel = { ILabel 
 						- _id = GUID dbbee579-529d-4a87-b1e6-4535c00aac72;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -1991,7 +1991,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:36;
 					- _itsLabel = { ILabel 
 						- _id = GUID ec6e70cc-8206-4afd-aaf1-60d6c817b4b1;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2007,7 +2007,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:39;
 					- _itsLabel = { ILabel 
 						- _id = GUID 4b42e4d4-632b-442b-975b-355b84bfe122;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2023,7 +2023,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:2:42;
 					- _itsLabel = { ILabel 
 						- _id = GUID 6d1aa6c5-bd36-4be9-88f2-5836b88f79a9;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2039,7 +2039,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:1;
 					- _itsLabel = { ILabel 
 						- _id = GUID 90c4490c-9e97-4ca4-a619-35c695e966f8;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2055,7 +2055,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:4;
 					- _itsLabel = { ILabel 
 						- _id = GUID 4a4015dd-fc14-4379-a077-0c15f3fc64c5;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2071,7 +2071,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:7;
 					- _itsLabel = { ILabel 
 						- _id = GUID 1d3e845a-e6fd-4fc5-8480-33fdaeec537f;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2087,7 +2087,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:11;
 					- _itsLabel = { ILabel 
 						- _id = GUID 011e4ed0-b23b-4197-ba0b-ed85876f7e42;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2103,7 +2103,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:15;
 					- _itsLabel = { ILabel 
 						- _id = GUID b26f64d9-63fd-4923-a5e3-cb9e7ceb85cc;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2119,7 +2119,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:19;
 					- _itsLabel = { ILabel 
 						- _id = GUID f393d792-5b07-41df-8dee-a6cf23283fe5;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2135,7 +2135,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:21;
 					- _itsLabel = { ILabel 
 						- _id = GUID 932acab6-0a9e-4360-8e31-e4610e12ab52;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2151,7 +2151,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:6:25;
 					- _itsLabel = { ILabel 
 						- _id = GUID 808790cb-a173-4c67-9d8c-063027059bd8;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2167,7 +2167,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:8:19;
 					- _itsLabel = { ILabel 
 						- _id = GUID 7dce34ed-066e-406d-9463-bb729f201112;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2183,7 +2183,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:8:31;
 					- _itsLabel = { ILabel 
 						- _id = GUID 9014ea81-5668-4ffe-8c4a-cc41e74fb323;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2199,7 +2199,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:8:36;
 					- _itsLabel = { ILabel 
 						- _id = GUID 0b63f027-5c85-4471-a087-e6ab83cb0af6;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2215,7 +2215,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					- _modifiedTimeWeak = 11.18.2013::9:8:39;
 					- _itsLabel = { ILabel 
 						- _id = GUID 0057fbd0-98f3-4769-a957-e67c9caf6c8a;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -2336,65 +2336,128 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 				{ IState 
 					- _id = GUID bc803fec-78b8-48a2-bb75-29e6c4628919;
 					- _name = "po_set";
-					- _modifiedTimeWeak = 11.17.2013::22:47:20;
+					- _modifiedTimeWeak = 11.19.2013::13:22:9;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID 909adfe2-3bb9-4ba8-9421-76324627d865;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:9;
+						- _body = "firstCharacter = \"P\";
+secondCharacter = \"o\";";
+					}
 				}
 				{ IState 
 					- _id = GUID d2a479a5-a4ac-493c-bdfc-baabd4d9f2ab;
 					- _name = "p__set";
-					- _modifiedTimeWeak = 11.18.2013::9:2:13;
+					- _modifiedTimeWeak = 11.19.2013::13:22:15;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID c7687bce-2565-4fe0-b2f5-ce6c08b771f3;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:15;
+						- _body = "firstCharacter = \"P\";
+secondCharacter = \"_\";";
+					}
 				}
 				{ IState 
 					- _id = GUID d207a8d1-b600-43e3-aede-86a036d5f067;
 					- _name = "hn_set";
-					- _modifiedTimeWeak = 11.18.2013::9:2:19;
+					- _modifiedTimeWeak = 11.19.2013::13:22:23;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID 740c67b7-575b-4163-8a03-7a36b12970ea;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:23;
+						- _body = "firstCharacter = \"h\";
+secondCharacter = \"n\";";
+					}
 				}
 				{ IState 
 					- _id = GUID 872d6891-28ce-4623-a596-0d05db22fe32;
 					- _name = "hr_set";
-					- _modifiedTimeWeak = 11.18.2013::9:2:36;
+					- _modifiedTimeWeak = 11.19.2013::13:22:30;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID ed59b976-4f06-4503-bf94-8b05670cba12;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:30;
+						- _body = "firstCharacter = \"h\";
+secondCharacter = \"r\";";
+					}
 				}
 				{ IState 
 					- _id = GUID 4c0192cc-ae54-4010-a4e9-f00a4c524fdf;
 					- _name = "minusC_set";
-					- _modifiedTimeWeak = 11.18.2013::9:2:42;
+					- _modifiedTimeWeak = 11.19.2013::13:22:37;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID 15b9934f-644e-42f6-8f55-017945fac353;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:37;
+						- _body = "firstCharacter = \"-\";
+secondCharacter = \"C\";";
+					}
 				}
 				{ IState 
 					- _id = GUID e44c6cad-862a-4761-889e-8d3534927898;
 					- _name = "minusc_set";
-					- _modifiedTimeWeak = 11.18.2013::9:6:15;
+					- _modifiedTimeWeak = 11.19.2013::13:22:59;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID d9b5e9a7-e86f-4a25-a1bc-c060ca1dab42;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:22:59;
+						- _body = "firstCharacter = \"-\";
+secondCharacter = \"c\";";
+					}
 				}
 				{ IState 
 					- _id = GUID 06192d75-21d7-4a1a-879b-cb9f2428e8a7;
 					- _name = "Of_set";
-					- _modifiedTimeWeak = 11.18.2013::9:6:19;
+					- _modifiedTimeWeak = 11.19.2013::13:23:5;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID fd78b09e-d612-4d11-b7a3-f1cfa84d744b;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:23:5;
+						- _body = "firstCharacter = \"O\";
+secondCharacter = \"f\";";
+					}
 				}
 				{ IState 
 					- _id = GUID ace3aefa-826f-47a1-beed-438db46b4e20;
 					- _name = "Ch_set";
-					- _modifiedTimeWeak = 11.18.2013::9:6:21;
+					- _modifiedTimeWeak = 11.19.2013::13:23:18;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID c15e8abe-d966-415b-a0f0-5aabd10f2d10;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:23:18;
+						- _body = "firstCharacter = \"C\";
+secondCharacter = \"h\";";
+					}
 				}
 				{ IState 
 					- _id = GUID 075c2e34-d362-47d7-80ed-3ff24436737c;
 					- _name = "HC_set";
-					- _modifiedTimeWeak = 11.18.2013::9:6:25;
+					- _modifiedTimeWeak = 11.19.2013::13:23:27;
 					- _parent = GUID 7093dee8-8546-4711-9409-7aaa9e4d6ba1;
 					- _defaultTrans = ;
+					- _entryAction = { IAction 
+						- _id = GUID 13fba785-cfe2-4ebd-864a-66dfc66934fd;
+						- _myState = 4096;
+						- _modifiedTimeWeak = 11.19.2013::13:23:27;
+						- _body = "firstCharacter = \"H\";
+secondCharacter = \"C\";";
+					}
 				}
 				{ IState 
 					- _id = GUID f30bd739-d225-4c6f-b39d-dee35c704430;
@@ -3073,7 +3136,7 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 					}
 				}
 			}
-			- _version = 11.18.2013::10:56:17;
+			- _version = 11.19.2013::14:23:27;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
 			- Views = { IRPYRawContainer 
@@ -3224,8 +3287,8 @@ System.out.format(\"First char: %s Second char: %s\\n\", firstCharacter, secondC
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.18.2013::9:54:48;
-					- _lastModifiedTime = "11.18.2013::9:56:17";
+					- _modifiedTimeWeak = 11.19.2013::13:22:59;
+					- _lastModifiedTime = "11.19.2013::13:23:27";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 95599e78-3bf4-46cb-812d-ee29b9135cc0;
 						- m_type = 0;
@@ -4297,7 +4360,7 @@ fifthCharacter = \"\" + (params.expectedTemp%10);";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0569732 0 0 0.0496178 594.75 247.779 ;
+							- m_transform = 0.0569732 0 0 0.0496178 595 248 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -4372,7 +4435,7 @@ fifthCharacter = \"\" + (params.expectedTemp%10);";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0569732 0 0 0.0564283 779.184 143.117 ;
+							- m_transform = 0.0569732 0 0 0.0564283 779 143 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -4447,7 +4510,7 @@ fifthCharacter = \"\" + (params.expectedTemp%10);";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0569732 0 0 0.0595414 565.56 89.6069 ;
+							- m_transform = 0.0569732 0 0 0.0595414 566 90 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5289,7 +5352,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 399.934 595.934 ;
+							- m_transform = 0.0541149 0 0 0.0593615 400 596 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5339,7 +5402,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 536.871 634.739 ;
+							- m_transform = 0.0541149 0 0 0.0593615 537 635 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5389,7 +5452,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 680.437 633.447 ;
+							- m_transform = 0.0541149 0 0 0.0593615 680 633 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5439,7 +5502,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 809.793 642.272 ;
+							- m_transform = 0.0541149 0 0 0.0593615 810 642 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5489,7 +5552,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 929.164 643.226 ;
+							- m_transform = 0.0541149 0 0 0.0593615 929 643 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5564,7 +5627,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0692551 920.109 397.798 ;
+							- m_transform = 0.0541149 0 0 0.0692551 920 398 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5614,7 +5677,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 789.561 395.779 ;
+							- m_transform = 0.0541149 0 0 0.0593615 790 396 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5664,7 +5727,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 661.655 390.506 ;
+							- m_transform = 0.0541149 0 0 0.0593615 662 391 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -5739,7 +5802,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0541149 0 0 0.0593615 534.954 385.413 ;
+							- m_transform = 0.0541149 0 0 0.0593615 535 385 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -8798,7 +8861,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.132582 0 0 0.0355479 396.023 507.961 ;
+							- m_transform = 0.132582 0 0 0.0355479 396 508 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -8975,7 +9038,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.125367 0 0 0.0483846 398.526 703.326 ;
+							- m_transform = 0.125367 0 0 0.0483846 399 703 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9147,7 +9210,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 360.186 103.622 ;
+							- m_transform = 0.0901918 0 0 0.0394976 360 104 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9242,7 +9305,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 357.714 315.053 ;
+							- m_transform = 0.0901918 0 0 0.0394976 358 315 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9491,7 +9554,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 535.027 553.698 ;
+							- m_transform = 0.0901918 0 0 0.0394976 535 554 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9586,7 +9649,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 541.205 732.681 ;
+							- m_transform = 0.0901918 0 0 0.0394976 541 733 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9681,7 +9744,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 679.596 556.838 ;
+							- m_transform = 0.0901918 0 0 0.0394976 680 557 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9776,7 +9839,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 681.449 743.148 ;
+							- m_transform = 0.0901918 0 0 0.0394976 681 743 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9871,7 +9934,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 809.954 561.024 ;
+							- m_transform = 0.0901918 0 0 0.0394976 810 561 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -9966,7 +10029,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 809.336 744.195 ;
+							- m_transform = 0.0901918 0 0 0.0394976 809 744 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -10061,7 +10124,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 928.575 558.931 ;
+							- m_transform = 0.0901918 0 0 0.0394976 929 559 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -10156,7 +10219,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 926.721 751.522 ;
+							- m_transform = 0.0901918 0 0 0.0394976 927 752 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -10867,7 +10930,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 535.645 498.223 ;
+							- m_transform = 0.0901918 0 0 0.0394976 536 498 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -10962,7 +11025,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 662.297 487.756 ;
+							- m_transform = 0.0901918 0 0 0.0394976 662 488 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11057,7 +11120,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 801.305 494.036 ;
+							- m_transform = 0.0901918 0 0 0.0394976 801 494 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11152,7 +11215,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 923.632 499.27 ;
+							- m_transform = 0.0901918 0 0 0.0394976 924 499 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11252,7 +11315,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.124465 0 0 0.0394976 917.454 319.24 ;
+							- m_transform = 0.124465 0 0 0.0394976 917 319 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11347,7 +11410,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 799.451 314.006 ;
+							- m_transform = 0.0901918 0 0 0.0394976 799 314 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11442,7 +11505,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 666.621 315.053 ;
+							- m_transform = 0.0901918 0 0 0.0394976 667 315 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -11537,7 +11600,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 541.823 306.679 ;
+							- m_transform = 0.0901918 0 0 0.0394976 542 307 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -12248,7 +12311,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 782.771 51.2877 ;
+							- m_transform = 0.0901918 0 0 0.0394976 783 51 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -12343,7 +12406,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 785.859 243.878 ;
+							- m_transform = 0.0901918 0 0 0.0394976 786 244 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -12438,7 +12501,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 567.153 189.45 ;
+							- m_transform = 0.0901918 0 0 0.0394976 567 189 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -12533,7 +12596,7 @@ dispatcher.gen(new get_time());";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.0901918 0 0 0.0394976 569.007 4.18675 ;
+							- m_transform = 0.0901918 0 0 0.0394976 569 4 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -12900,7 +12963,7 @@ dispatcher.gen(new get_time());";
 			- _id = GUID bfc5d2ca-90d8-4ad4-8d69-21041e3197e0;
 			- _myState = 8192;
 			- _name = "dispatcher";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:56:17;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

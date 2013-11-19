@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 3af0b03d-0bd2-4685-9c36-3a8dd43d8fa7;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -38,7 +38,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 16a67708-be75-42cc-8a8b-b7f9a20d0f13;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1f6395dd-248e-4284-8ebc-c9b60aaf1954;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -72,7 +72,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 63cff166-16e0-4c52-9abd-06c1f48cd341;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -89,7 +89,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 95202391-7a50-4085-9841-95b2a21d33ca;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -111,7 +111,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID b67f8d3d-85f3-4168-b32a-4cda760e77c0;
 			- _myState = 8192;
 			- _name = "speed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -130,7 +130,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 7b4d45cc-d342-42ef-9699-f505ecec66a5;
 			- _myState = 8192;
 			- _name = "isOk";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -149,7 +149,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID be3c6284-0199-4d24-b81b-1c3c08bb833b;
 			- _myState = 8192;
 			- _name = "minSpeed";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -2385,7 +2385,7 @@ else speed = 99;";
 			- _id = GUID 003d2dc1-e4b9-415f-a0cc-0ee0ab89f52d;
 			- _myState = 8192;
 			- _name = "parent";
-			- _modifiedTimeWeak = 11.17.2013::23:56:23;
+			- _modifiedTimeWeak = 11.18.2013::9:13:4;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
