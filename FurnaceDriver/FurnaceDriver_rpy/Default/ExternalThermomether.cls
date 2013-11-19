@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 9fc0760b-53d4-4cf3-83bd-6d944301eef3;
 	- _myState = 8192;
 	- _name = "ExternalThermomether";
-	- _modifiedTimeWeak = 11.18.2013::9:13:4;
+	- _modifiedTimeWeak = 11.19.2013::21:53:57;
 	- _lastID = 3;
-	- weakCGTime = 11.18.2013::9:13:4;
+	- weakCGTime = 11.19.2013::21:53:57;
 	- strongCGTime = 11.12.2013::22:12:17;
 	- Operations = { IRPYRawContainer 
 		- size = 1;
@@ -42,8 +42,17 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IAttribute 
 			- _id = GUID cb33704f-e27d-4077-a36d-74068cf37ece;
 			- _myState = 8192;
-			- _name = "temperature";
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _name = "current_external_temperature";
+			- _modifiedTimeWeak = 11.19.2013::21:6:11;
+			- ValueSpecifications = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ILiteralSpecification 
+					- _id = GUID 240591c5-a486-41ec-8836-a280bc18c88d;
+					- _modifiedTimeWeak = 11.19.2013::21:6:11;
+					- _value = "0";
+				}
+			}
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -86,9 +95,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 88730d61-c012-4616-a74f-53adf11d799c;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::21:53:57;
 			- _lastID = 14;
-			- weakCGTime = 11.18.2013::9:13:4;
+			- weakCGTime = 11.19.2013::21:53:57;
 			- strongCGTime = 11.12.2013::22:12:17;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -246,10 +255,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID e5440aa5-7b1c-4230-877c-176034696cbe;
 					- _myState = 2048;
 					- _name = "transition_13";
-					- _modifiedTimeWeak = 11.17.2013::14:24:5;
+					- _modifiedTimeWeak = 11.19.2013::21:6:5;
 					- _itsLabel = { ILabel 
 						- _id = GUID 6420c453-8f71-4db3-b47e-57c44d9cfe46;
-						- _modifiedTimeWeak = 11.17.2013::14:24:5;
+						- _modifiedTimeWeak = 11.19.2013::21:6:5;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 2493df84-0879-4922-9ca2-5168ef28c112;
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -265,11 +274,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _itsGuard = NULL;
-						- _itsAction = { IAction 
-							- _id = GUID dc7467ba-9957-407e-a774-c198c8da14d8;
-							- _modifiedTimeWeak = 11.17.2013::14:24:5;
-							- _body = "temperature = 0;";
-						}
+						- _itsAction = NULL;
 					}
 					- _itsTarget = GUID 94995aa8-0cab-4fc6-9a5e-b82759879cb6;
 					- _staticReaction = 0;
@@ -320,14 +325,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 0de9977c-7729-4c8e-83fb-c4f5816ea23b;
 					- _myState = 2048;
 					- _name = "sendaction_2";
-					- _modifiedTimeWeak = 11.18.2013::9:13:4;
+					- _modifiedTimeWeak = 11.19.2013::21:53:57;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID be70e2a4-a5eb-41fd-ae11-fb25e3e7d191;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.18.2013::9:13:4;
+						- _modifiedTimeWeak = 11.19.2013::21:53:57;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -349,7 +354,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- _class = "";
 							- _name = "update_external_temperature(int).0";
 							- _id = GUID a1e83124-9513-4c42-9de4-6307f487d7be;
-							- _data = " temperature";
+							- _data = " current_external_temperature";
 						}
 						
 					}
@@ -358,14 +363,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID bff7fed4-a0f5-4371-8053-3cbffbd89f0d;
 					- _myState = 2048;
 					- _name = "sendaction_3";
-					- _modifiedTimeWeak = 11.18.2013::9:13:4;
+					- _modifiedTimeWeak = 11.19.2013::21:53:57;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 823a29a5-5c90-4d7d-b65f-4f636f118a8f;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.18.2013::9:13:4;
+						- _modifiedTimeWeak = 11.19.2013::21:53:57;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -392,14 +397,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 031ba3ff-9454-4954-b2c0-d63b36eef1da;
 					- _myState = 2048;
 					- _name = "sendaction_5";
-					- _modifiedTimeWeak = 11.18.2013::9:13:4;
+					- _modifiedTimeWeak = 11.19.2013::21:53:57;
 					- _parent = GUID 7d725630-bd58-43de-8d31-22c8e928384d;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 89701e15-5506-496d-900d-6e6c9f6b9016;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.18.2013::9:13:4;
+						- _modifiedTimeWeak = 11.19.2013::21:53:57;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -416,7 +421,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					}
 				}
 			}
-			- _version = 11.18.2013::10:13:4;
+			- _version = 11.19.2013::22:53:57;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 8a55ff2a-3681-423f-8651-8cbba7db6c34;
 			- Views = { IRPYRawContainer 
@@ -567,8 +572,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.18.2013::9:12:14;
-					- _lastModifiedTime = "11.18.2013::9:13:4";
+					- _modifiedTimeWeak = 11.19.2013::21:53:57;
+					- _lastModifiedTime = "11.19.2013::21:53:57";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 1197ccc3-79ac-40b2-a200-f9d637c8e657;
 						- m_type = 0;
@@ -1789,7 +1794,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- m_targetType = 'T';
 							- m_direction = ' ';
 							- m_rpn = { CGIText 
-								- m_str = "dispatcher_init_finished/temperature = 0;";
+								- m_str = "dispatcher_init_finished";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
