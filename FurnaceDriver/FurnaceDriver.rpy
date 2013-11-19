@@ -30,7 +30,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = 3;
+			- _count = 4;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";

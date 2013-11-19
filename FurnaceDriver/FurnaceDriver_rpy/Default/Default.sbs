@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.19.2013::23:45:55;
+	- _modifiedTimeWeak = 11.19.2013::23:48:48;
 	- _lastID = 60;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -13,7 +13,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
 		}
 	}
-	- weakCGTime = 11.19.2013::23:45:55;
+	- weakCGTime = 11.19.2013::23:48:48;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID b6e40813-e2b1-4019-901c-081e100ba412;
 	- _eventsBaseID = 18616;
@@ -61,12 +61,12 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 1dbe980c-3eee-418e-90bb-e7195f763f4a;
 			- _myState = 8192;
 			- _name = "CPU";
-			- _modifiedTimeWeak = 11.19.2013::23:45:55;
-			- _lastID = 11;
-			- weakCGTime = 11.19.2013::23:45:55;
+			- _modifiedTimeWeak = 11.19.2013::23:49:27;
+			- _lastID = 12;
+			- weakCGTime = 11.19.2013::23:49:27;
 			- strongCGTime = 11.19.2013::15:4:7;
 			- Operations = { IRPYRawContainer 
-				- size = 20;
+				- size = 21;
 				- value = 
 				{ IReception 
 					- _id = GUID af391f9c-4314-4749-9c38-81a787e67f45;
@@ -327,6 +327,30 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _m2Class = "IEvent";
 						- _id = GUID e3a1f8e4-1479-4563-be40-3fe87ac31945;
 					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 0732eb58-5c76-478f-8ab7-e8b64ef6b694;
+					- _myState = 8192;
+					- _name = "calculate_fan_speed";
+					- _modifiedTimeWeak = 11.19.2013::23:48:59;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesJava.sbs";
+						- _subsystem = "PredefinedTypesJava";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 38d26ae8-de64-4b2e-8b3e-d6cbe8e0a76d;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
 				}
 			}
 			- Attrs = { IRPYRawContainer 
@@ -621,9 +645,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 464a276e-3627-40ba-a052-acfc915fa2b1;
 					- _myState = 10240;
 					- _name = "statechart_0";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
+					- _modifiedTimeWeak = 11.19.2013::23:49:27;
 					- _lastID = 27;
-					- weakCGTime = 11.19.2013::23:45:55;
+					- weakCGTime = 11.19.2013::23:49:27;
 					- strongCGTime = 11.19.2013::15:4:7;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1406,9 +1430,15 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						{ IState 
 							- _id = GUID 557683e7-d6b8-4076-852b-74a11bd469a6;
 							- _name = "change_fan_state";
-							- _modifiedTimeWeak = 11.19.2013::21:24:39;
+							- _modifiedTimeWeak = 11.19.2013::23:49:27;
 							- _parent = GUID 547cdc92-2857-4709-98d3-f4d89fa0a6bb;
 							- _defaultTrans = ;
+							- _entryAction = { IAction 
+								- _id = GUID 79ad4061-f035-439a-b767-d4ba37e0cbe7;
+								- _myState = 4096;
+								- _modifiedTimeWeak = 1.1.1970::1:0:0;
+								- _body = "calculate_fan_speed();";
+							}
 						}
 						{ IState 
 							- _id = GUID 238035cd-5099-4bbf-87cc-0b7a9b30df64;
@@ -1434,7 +1464,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 					}
-					- _version = 11.20.2013::0:45:55;
+					- _version = 11.20.2013::0:49:27;
 					- _baseVersion = 1.1.1970::1:0:0;
 					- _diagram = GUID 11900e80-5b25-4914-b2f1-24ad6b20f2a2;
 					- Views = { IRPYRawContainer 
@@ -1553,8 +1583,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								}
 							}
 							- _name = "statechartdiagram_0";
-							- _modifiedTimeWeak = 11.19.2013::23:45:55;
-							- _lastModifiedTime = "11.19.2013::23:45:55";
+							- _modifiedTimeWeak = 11.19.2013::23:49:27;
+							- _lastModifiedTime = "11.19.2013::23:49:27";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID f53fdfad-dd46-475e-bd25-995cd164e17f;
 								- m_type = 0;

@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 	- _myState = 8192;
 	- _name = "Dispatcher";
-	- _modifiedTimeWeak = 11.19.2013::23:45:55;
+	- _modifiedTimeWeak = 11.19.2013::23:48:48;
 	- _lastID = 13;
-	- weakCGTime = 11.19.2013::23:45:55;
+	- weakCGTime = 11.19.2013::23:48:48;
 	- strongCGTime = 11.12.2013::12:42:27;
 	- Operations = { IRPYRawContainer 
 		- size = 46;
@@ -832,9 +832,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID a60f1be3-7880-4ac7-b571-a8295bdc826e;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.19.2013::23:45:55;
+			- _modifiedTimeWeak = 11.19.2013::23:48:48;
 			- _lastID = 39;
-			- weakCGTime = 11.19.2013::23:45:55;
+			- weakCGTime = 11.19.2013::23:48:48;
 			- strongCGTime = 11.12.2013::12:42:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3918,15 +3918,15 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 				{ IState 
 					- _id = GUID 0fd583f6-a7ff-44a8-8b11-ead56d90e832;
 					- _name = "sonsors_initialization";
-					- _modifiedTimeWeak = 11.19.2013::23:42:55;
+					- _modifiedTimeWeak = 11.19.2013::23:48:48;
 					- _parent = GUID b94b6911-85d0-40c9-a80c-52c8a7742316;
 					- _defaultTrans = ;
 					- _nestedStateChart = { IStateChart 
 						- _id = GUID 0355d8eb-577a-4b27-8163-7af5a08258b1;
 						- _myState = 8192;
-						- _modifiedTimeWeak = 11.19.2013::23:42:55;
+						- _modifiedTimeWeak = 11.19.2013::23:48:48;
 						- _lastID = 30;
-						- weakCGTime = 11.19.2013::23:42:55;
+						- weakCGTime = 11.19.2013::23:48:48;
 						- strongCGTime = 1.2.1990::0:0:0;
 						- _multiplicity = "";
 						- _itsStateChart = { IHandle 
@@ -4615,14 +4615,14 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 								- _id = GUID 57cb6272-2e1f-4458-a98f-c43d82dacbee;
 								- _myState = 2048;
 								- _name = "sendaction_80";
-								- _modifiedTimeWeak = 11.19.2013::21:54:45;
+								- _modifiedTimeWeak = 11.19.2013::23:48:48;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID a1e7494a-1dd8-4b9e-bbc0-cf03a5f77274;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 11.19.2013::23:48:48;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -4908,8 +4908,8 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 									}
 								}
 								- _name = "statechartdiagram_0";
-								- _modifiedTimeWeak = 11.19.2013::23:42:55;
-								- _lastModifiedTime = "11.19.2013::23:42:55";
+								- _modifiedTimeWeak = 11.19.2013::23:48:48;
+								- _lastModifiedTime = "11.19.2013::23:48:48";
 								- _graphicChart = { CGIStateChart 
 									- _id = GUID a5243164-395c-4f25-8887-6cf1606b4275;
 									- m_type = 0;
@@ -8028,7 +8028,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 					- _defaultTrans = ;
 				}
 			}
-			- _version = 11.20.2013::0:46:1;
+			- _version = 11.20.2013::0:48:48;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			- Views = { IRPYRawContainer 
