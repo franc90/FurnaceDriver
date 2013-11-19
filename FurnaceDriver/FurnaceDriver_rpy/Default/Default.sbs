@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.19.2013::21:53:57;
-	- _lastID = 58;
+	- _modifiedTimeWeak = 11.19.2013::23:45:55;
+	- _lastID = 60;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -13,7 +13,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
 		}
 	}
-	- weakCGTime = 11.19.2013::21:53:57;
+	- weakCGTime = 11.19.2013::23:45:55;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID b6e40813-e2b1-4019-901c-081e100ba412;
 	- _eventsBaseID = 18616;
@@ -61,9 +61,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 1dbe980c-3eee-418e-90bb-e7195f763f4a;
 			- _myState = 8192;
 			- _name = "CPU";
-			- _modifiedTimeWeak = 11.19.2013::21:53:57;
+			- _modifiedTimeWeak = 11.19.2013::23:45:55;
 			- _lastID = 11;
-			- weakCGTime = 11.19.2013::21:53:57;
+			- weakCGTime = 11.19.2013::23:45:55;
 			- strongCGTime = 11.19.2013::15:4:7;
 			- Operations = { IRPYRawContainer 
 				- size = 20;
@@ -621,9 +621,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID 464a276e-3627-40ba-a052-acfc915fa2b1;
 					- _myState = 10240;
 					- _name = "statechart_0";
-					- _modifiedTimeWeak = 11.19.2013::21:53:57;
+					- _modifiedTimeWeak = 11.19.2013::23:45:55;
 					- _lastID = 27;
-					- weakCGTime = 11.19.2013::21:53:57;
+					- weakCGTime = 11.19.2013::23:45:55;
 					- strongCGTime = 11.19.2013::15:4:7;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1414,14 +1414,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- _id = GUID 238035cd-5099-4bbf-87cc-0b7a9b30df64;
 							- _myState = 2048;
 							- _name = "sendaction_8";
-							- _modifiedTimeWeak = 11.19.2013::21:53:57;
+							- _modifiedTimeWeak = 11.19.2013::23:45:55;
 							- _parent = GUID d9dbbd6b-b256-41b4-acc1-efaad18b4fce;
 							- _stateType = EventState;
 							- _defaultTrans = ;
 							- _entryAction = { ISendAction 
 								- _id = GUID 9326f89c-e301-4986-a2bf-e7f52da28684;
 								- _myState = 4096;
-								- _modifiedTimeWeak = 11.19.2013::21:53:57;
+								- _modifiedTimeWeak = 11.19.2013::23:45:55;
 								- _body = "";
 								- m_hTarget = { IHandle 
 									- _m2Class = "IAssociationEnd";
@@ -1434,7 +1434,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 					}
-					- _version = 11.19.2013::22:53:57;
+					- _version = 11.20.2013::0:45:55;
 					- _baseVersion = 1.1.1970::1:0:0;
 					- _diagram = GUID 11900e80-5b25-4914-b2f1-24ad6b20f2a2;
 					- Views = { IRPYRawContainer 
@@ -1553,8 +1553,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								}
 							}
 							- _name = "statechartdiagram_0";
-							- _modifiedTimeWeak = 11.19.2013::21:53:57;
-							- _lastModifiedTime = "11.19.2013::21:53:57";
+							- _modifiedTimeWeak = 11.19.2013::23:45:55;
+							- _lastModifiedTime = "11.19.2013::23:45:55";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID f53fdfad-dd46-475e-bd25-995cd164e17f;
 								- m_type = 0;
@@ -4298,7 +4298,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 	}
 	- Events = { IRPYRawContainer 
-		- size = 55;
+		- size = 57;
 		- value = 
 		{ IEvent 
 			- _id = GUID f1a4d907-7ebc-4927-a5cd-31b4ad00fb62;
@@ -5008,8 +5008,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IEvent 
 			- _id = GUID 09fc8817-473b-4c7a-bba4-3630ee6cfa3b;
 			- _myState = 8192;
-			- _name = "start_fan_min_speed";
-			- _modifiedTimeWeak = 11.18.2013::9:34:13;
+			- _name = "fan_set_min_speed";
+			- _modifiedTimeWeak = 11.19.2013::23:31:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -5079,6 +5079,26 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _myState = 8192;
 			- _name = "init_cpu";
 			- _modifiedTimeWeak = 11.19.2013::21:50:55;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID ebb456ef-27f0-4ae1-8ff8-78acabcf358c;
+			- _myState = 8192;
+			- _name = "fan_set_normal_speed";
+			- _modifiedTimeWeak = 11.19.2013::23:32:2;
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IEvent 
+			- _id = GUID 57a25962-7b84-49e0-8734-fd84e3e9a6c7;
+			- _myState = 8192;
+			- _name = "update_fan_display";
+			- _modifiedTimeWeak = 11.19.2013::23:41:22;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
