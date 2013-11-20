@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 4f561431-b6c3-4ba6-842e-24d9693d3050;
 	- _myState = 8192;
 	- _name = "Tachometer";
-	- _modifiedTimeWeak = 11.19.2013::23:46:33;
+	- _modifiedTimeWeak = 11.20.2013::9:33:20;
 	- _lastID = 7;
-	- weakCGTime = 11.19.2013::23:46:33;
+	- weakCGTime = 11.20.2013::9:33:20;
 	- strongCGTime = 11.12.2013::22:21:21;
 	- Operations = { IRPYRawContainer 
 		- size = 10;
@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 3af0b03d-0bd2-4685-9c36-3a8dd43d8fa7;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -38,7 +38,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 16a67708-be75-42cc-8a8b-b7f9a20d0f13;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1f6395dd-248e-4284-8ebc-c9b60aaf1954;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -72,7 +72,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 63cff166-16e0-4c52-9abd-06c1f48cd341;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -89,7 +89,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 95202391-7a50-4085-9841-95b2a21d33ca;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -106,7 +106,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 21b3c601-c78c-4d3b-a193-24bdb0e1150f;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -123,7 +123,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 16841808-e3b9-4051-bd6f-b8cee2c0e2c9;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -140,7 +140,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID e2ed6f8f-7f09-4ee0-962b-8baf70239404;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -157,7 +157,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 8db553d8-d941-48fb-b16b-9b819f85b8c6;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -174,7 +174,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 367a6135-5984-495d-952b-1edd4e1562d2;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -196,7 +196,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID b67f8d3d-85f3-4168-b32a-4cda760e77c0;
 			- _myState = 8192;
 			- _name = "speed";
-			- _modifiedTimeWeak = 11.19.2013::22:12:39;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -224,7 +224,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 7b4d45cc-d342-42ef-9699-f505ecec66a5;
 			- _myState = 8192;
 			- _name = "isOk";
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -243,7 +243,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID be3c6284-0199-4d24-b81b-1c3c08bb833b;
 			- _myState = 8192;
 			- _name = "minSpeed";
-			- _modifiedTimeWeak = 11.19.2013::21:35:36;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -271,7 +271,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID b747a1e4-df40-4479-bc44-68a80d7fdd1c;
 			- _myState = 8192;
 			- _name = "current_speed";
-			- _modifiedTimeWeak = 11.19.2013::21:46:43;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -299,7 +299,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 512d994f-c164-436c-ae56-b09a5db8a27b;
 			- _myState = 8192;
 			- _name = "fanOn";
-			- _modifiedTimeWeak = 11.19.2013::23:34:49;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -327,7 +327,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID d8fe92de-0935-40a1-9633-150559bb2f0b;
 			- _myState = 8192;
 			- _name = "fullSpeedOn";
-			- _modifiedTimeWeak = 11.19.2013::23:34:41;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -360,9 +360,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID d28ac023-5269-474c-aaa6-a16fbcac3993;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.19.2013::23:46:33;
+			- _modifiedTimeWeak = 11.20.2013::9:33:20;
 			- _lastID = 35;
-			- weakCGTime = 11.19.2013::23:46:33;
+			- weakCGTime = 11.20.2013::9:33:20;
 			- strongCGTime = 11.12.2013::22:21:21;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -443,7 +443,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _modifiedTimeWeak = 11.19.2013::21:39:3;
 					- _itsLabel = { ILabel 
 						- _id = GUID f63bcc36-ed5f-4a82-9d22-6484cd8f337c;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -463,7 +463,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _modifiedTimeWeak = 11.19.2013::21:39:36;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID d60077eb-cd2e-4759-a0cc-2ce71b621e2c;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "decrease_p0_fan_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -478,7 +478,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID dffccf51-8e98-4472-be7e-919cf8f6224f;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "if (speed == 99) speed = 95;
 else if (speed > 34) speed -= 5;
 else speed = 30;";
@@ -518,7 +518,7 @@ else speed = 30;";
 						- _modifiedTimeWeak = 11.19.2013::21:40:49;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 20f16668-ad24-4b42-800d-6fbd1eb96157;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "decrease_p_min_fan_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -533,7 +533,7 @@ else speed = 30;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID c0f25eb8-940b-4a9b-9a4f-37eb14fc6fe7;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "  if (minSpeed > 5) --minSpeed;";
 						}
 					}
@@ -551,7 +551,7 @@ else speed = 30;";
 						- _modifiedTimeWeak = 11.19.2013::21:41:20;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 38833eae-a6f4-46c6-ab26-865ece267af8;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "increase_p_min_fan_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -566,7 +566,7 @@ else speed = 30;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID b2767410-8860-4936-8084-5a80f80cc8d2;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "if (minSpeed < 30) ++minSpeed;";
 						}
 					}
@@ -584,7 +584,7 @@ else speed = 30;";
 						- _modifiedTimeWeak = 11.19.2013::21:41:49;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID a3e25e1d-3c8b-467c-bc02-27c71e29a2b2;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "increase_p0_fan_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -599,7 +599,7 @@ else speed = 30;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 238d76dd-a4c1-43ca-a565-09d889037bff;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "if (speed < 95) speed += 5;
 else speed = 99;";
 						}
@@ -618,7 +618,7 @@ else speed = 99;";
 						- _modifiedTimeWeak = 11.19.2013::21:46:35;
 						- _itsTrigger = { ITimeout 
 							- _id = GUID 63dfed83-7916-43fe-86d8-e449a0f6f6be;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "tm(2000)";
 							- _info = "";
 							- _time = "2000";
@@ -637,7 +637,7 @@ else speed = 99;";
 					- _modifiedTimeWeak = 11.19.2013::21:43:14;
 					- _itsLabel = { ILabel 
 						- _id = GUID 83d996e4-1c18-4872-a8e1-b5d32a9920f8;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -654,7 +654,7 @@ else speed = 99;";
 					- _modifiedTimeWeak = 11.19.2013::21:43:27;
 					- _itsLabel = { ILabel 
 						- _id = GUID e6c3775e-fb34-4d28-9948-fe1535c113fa;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -674,7 +674,7 @@ else speed = 99;";
 						- _itsTrigger = NULL;
 						- _itsGuard = { IGuard 
 							- _id = GUID 69024614-462b-4a58-ba1d-b05f2b3f9e1f;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "isOk==false";
 						}
 						- _itsAction = NULL;
@@ -694,7 +694,7 @@ else speed = 99;";
 						- _itsTrigger = NULL;
 						- _itsGuard = { IGuard 
 							- _id = GUID 4f1db5cc-5961-4b94-b43b-ee72ee01f5ca;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "isOk == true";
 						}
 						- _itsAction = NULL;
@@ -710,7 +710,7 @@ else speed = 99;";
 					- _modifiedTimeWeak = 11.19.2013::21:45:9;
 					- _itsLabel = { ILabel 
 						- _id = GUID 1b81d2f0-b7fe-463c-bad9-f273c79b8b87;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -726,7 +726,7 @@ else speed = 99;";
 					- _modifiedTimeWeak = 11.19.2013::21:45:15;
 					- _itsLabel = { ILabel 
 						- _id = GUID dee32176-c389-4fe7-b108-088a0723f5ee;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -742,7 +742,7 @@ else speed = 99;";
 					- _modifiedTimeWeak = 11.19.2013::23:30:29;
 					- _itsLabel = { ILabel 
 						- _id = GUID 87a76d77-f35d-4082-963b-5a07925f5a3f;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _itsTrigger = NULL;
 						- _itsGuard = NULL;
 						- _itsAction = NULL;
@@ -756,13 +756,13 @@ else speed = 99;";
 					- _id = GUID 5281803d-1311-4f53-84d1-3dd26e6c0204;
 					- _myState = 2048;
 					- _name = "transition_33";
-					- _modifiedTimeWeak = 11.19.2013::23:32:38;
+					- _modifiedTimeWeak = 11.20.2013::9:3:45;
 					- _itsLabel = { ILabel 
 						- _id = GUID fec90016-0a00-4ec7-8b47-9e9e3a543711;
-						- _modifiedTimeWeak = 11.19.2013::23:32:38;
+						- _modifiedTimeWeak = 11.20.2013::9:3:45;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID bb83341f-bfbb-45ce-9412-fcd32f4cb0df;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "start_fan";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -777,8 +777,9 @@ else speed = 99;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 6e207e89-8ebf-40e0-8a59-21f563782c23;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
-							- _body = "fanOn = true;";
+							- _modifiedTimeWeak = 11.20.2013::9:3:45;
+							- _body = "fanOn = true;                
+fullSpeedOn = true;";
 						}
 					}
 					- _itsTarget = GUID cd53514a-f931-45c7-b5b7-977becb023c4;
@@ -795,7 +796,7 @@ else speed = 99;";
 						- _modifiedTimeWeak = 11.19.2013::23:46:33;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 075beb2e-bb69-4ff1-814c-f7eea7fc1757;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "stop_fan";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -826,7 +827,7 @@ else speed = 99;";
 						- _modifiedTimeWeak = 11.19.2013::23:35:7;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 7ce24d47-0376-4b9b-aba7-796b071d0946;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "fan_set_min_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -841,7 +842,7 @@ else speed = 99;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID b26015ea-bd45-4e4a-ab77-a3bb2a8023d3;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "fullSpeedOn = false;";
 						}
 					}
@@ -857,7 +858,7 @@ else speed = 99;";
 						- _modifiedTimeWeak = 11.19.2013::23:35:22;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 35ef461a-f948-4643-a9f7-997959962978;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "fan_set_normal_speed";
 							- _info = "";
 							- _itsInterfaceItem = { IHandle 
@@ -872,7 +873,7 @@ else speed = 99;";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 6027e017-ba08-4b38-b9c8-ad42d242dc35;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "fullSpeedOn = true;";
 						}
 					}
@@ -912,14 +913,14 @@ else speed = 99;";
 					- _id = GUID 231ced60-31fa-44cf-ad42-41fb7bc0bf4b;
 					- _myState = 2048;
 					- _name = "sendaction_8";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
+					- _modifiedTimeWeak = 11.20.2013::9:33:20;
 					- _parent = GUID 71faef44-3e53-4725-8849-2a4570be7044;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID a8e72bd6-fced-47e6-be60-334ad4c73943;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.19.2013::23:45:55;
+						- _modifiedTimeWeak = 11.20.2013::9:33:20;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -982,7 +983,7 @@ else speed = 99;";
 					- _entryAction = { IAction 
 						- _id = GUID 52e96d3f-cc7e-4f27-a2c2-79c680f37675;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _body = "isOk = true;";
 					}
 				}
@@ -997,14 +998,14 @@ else speed = 99;";
 					- _id = GUID 8f2c8973-c583-4eda-82c2-3bc801455484;
 					- _myState = 2048;
 					- _name = "sendaction_17";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
+					- _modifiedTimeWeak = 11.20.2013::9:33:20;
 					- _parent = GUID 74a2b65a-4180-480d-ace7-649c262ec8c0;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 8f516479-5496-49f0-bbc7-f16b5dfdce2f;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.19.2013::23:45:55;
+						- _modifiedTimeWeak = 11.20.2013::9:33:20;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -1035,14 +1036,14 @@ else speed = 99;";
 					- _id = GUID 7cf336a1-5488-44a8-b059-6fa7e4392819;
 					- _myState = 2048;
 					- _name = "sendaction_18";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
+					- _modifiedTimeWeak = 11.20.2013::9:33:20;
 					- _parent = GUID 74a2b65a-4180-480d-ace7-649c262ec8c0;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID 63cb0942-d5f6-4642-ae57-15df7a140eec;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.19.2013::23:45:55;
+						- _modifiedTimeWeak = 11.20.2013::9:33:20;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -1075,7 +1076,7 @@ else speed = 99;";
 					- _entryAction = { IAction 
 						- _id = GUID a7cabb2a-5ad6-4dbb-a84f-db61b8e924f2;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _body = "parent.gen(new update_fan_display());";
 					}
 				}
@@ -1088,12 +1089,12 @@ else speed = 99;";
 					- _entryAction = { IAction 
 						- _id = GUID fe85ba8c-0536-470b-b59f-e220c08a94e8;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- _body = "parent.gen(new update_fan_display());";
 					}
 				}
 			}
-			- _version = 11.20.2013::0:46:33;
+			- _version = 11.20.2013::10:33:20;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 8ecb8ec9-dbd6-48c2-a957-8b0c4f13442d;
 			- Views = { IRPYRawContainer 
@@ -1308,8 +1309,8 @@ else speed = 99;";
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
-					- _lastModifiedTime = "11.19.2013::23:46:33";
+					- _modifiedTimeWeak = 11.20.2013::9:33:20;
+					- _lastModifiedTime = "11.20.2013::9:33:20";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID f6632df0-ed54-48e2-93fa-196c94e18c57;
 						- m_type = 0;
@@ -1812,7 +1813,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 1.24088 0 0 0.256604 51.0001 230 ;
+							- m_transform = 1.24088 0 0 0.256604 51 230 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -1965,7 +1966,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.12015 0 0 0.220588 49.0388 140.294 ;
+							- m_transform = 0.12015 0 0 0.220588 49 140 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -2015,7 +2016,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.12015 0 0 0.220588 220.606 576.764 ;
+							- m_transform = 0.12015 0 0 0.220588 221 577 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -2558,7 +2559,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0824742 0 0 0.220588 544.832 148.088 ;
+							- m_transform = 0.0824742 0 0 0.220588 545 148 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -2611,7 +2612,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0824742 0 0 0.220588 677.748 280.588 ;
+							- m_transform = 0.0824742 0 0 0.220588 678 281 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -2815,7 +2816,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 0;
-							- m_transform = 0.805882 0 0 3.58529 695.606 783.308 ;
+							- m_transform = 0.805882 0 0 3.58529 696 783 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_position = 4 0 0  0 25  25 25  25 0  ;
 							- m_pInheritsFrom = { IHandle 
@@ -2968,7 +2969,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.137457 0 0 0.147059 525.958 467.647 ;
+							- m_transform = 0.137457 0 0 0.147059 526 468 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -3063,7 +3064,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 0.137457 0 0 0.147059 483.986 740.441 ;
+							- m_transform = 0.137457 0 0 0.147059 484 740 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -3471,7 +3472,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0705882 0 0 0.220588 905.811 109.118 ;
+							- m_transform = 0.0705882 0 0 0.220588 906 109 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -3521,7 +3522,7 @@ else speed = 99;";
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.0705882 0 0 0.220588 915.482 611.838 ;
+							- m_transform = 0.0705882 0 0 0.220588 915 612 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -3680,7 +3681,8 @@ else speed = 99;";
 							- m_targetType = 'T';
 							- m_direction = ' ';
 							- m_rpn = { CGIText 
-								- m_str = "start_fan/fanOn = true;";
+								- m_str = "start_fan/fanOn = true;                
+fullSpeedOn = true;";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -3811,7 +3813,7 @@ else speed = 99;";
 			- _id = GUID 003d2dc1-e4b9-415f-a0cc-0ee0ab89f52d;
 			- _myState = 8192;
 			- _name = "parent";
-			- _modifiedTimeWeak = 11.18.2013::9:13:4;
+			- _modifiedTimeWeak = 11.19.2013::23:46:33;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
