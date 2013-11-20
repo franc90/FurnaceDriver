@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID e1ddacfb-52fc-440d-b6b0-2864beed02cb;
 	- _myState = 8192;
 	- _name = "WaterTemperatureSensor";
-	- _modifiedTimeWeak = 11.20.2013::9:33:20;
+	- _modifiedTimeWeak = 11.20.2013::10:10:51;
 	- _lastID = 13;
-	- weakCGTime = 11.20.2013::9:33:20;
+	- weakCGTime = 11.20.2013::10:10:51;
 	- strongCGTime = 11.12.2013::22:29:21;
 	- Operations = { IRPYRawContainer 
 		- size = 1;
@@ -43,13 +43,13 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 2e482bd0-3b3e-459a-8d0d-53427a45d492;
 			- _myState = 8192;
 			- _name = "current_water_temperature";
-			- _modifiedTimeWeak = 11.19.2013::23:45:55;
+			- _modifiedTimeWeak = 11.20.2013::10:10:51;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
 				{ ILiteralSpecification 
-					- _id = GUID 250da90d-ced7-4147-a328-4e7521781334;
-					- _modifiedTimeWeak = 11.19.2013::21:6:23;
+					- _id = GUID 8ee943c4-5a4d-46c2-9baf-afe56c32d7f7;
+					- _modifiedTimeWeak = 11.20.2013::10:10:51;
 					- _value = "0";
 				}
 			}

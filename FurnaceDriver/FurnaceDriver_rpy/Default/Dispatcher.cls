@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 	- _myState = 8192;
 	- _name = "Dispatcher";
-	- _modifiedTimeWeak = 11.20.2013::9:35:22;
+	- _modifiedTimeWeak = 11.20.2013::10:35:9;
 	- _lastID = 13;
-	- weakCGTime = 11.20.2013::9:35:22;
+	- weakCGTime = 11.20.2013::10:35:9;
 	- strongCGTime = 11.12.2013::12:42:27;
 	- Operations = { IRPYRawContainer 
 		- size = 47;
@@ -849,9 +849,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID a60f1be3-7880-4ac7-b571-a8295bdc826e;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.20.2013::9:35:22;
+			- _modifiedTimeWeak = 11.20.2013::10:35:9;
 			- _lastID = 39;
-			- weakCGTime = 11.20.2013::9:35:22;
+			- weakCGTime = 11.20.2013::10:35:9;
 			- strongCGTime = 11.12.2013::12:42:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2097,15 +2097,15 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 				{ IState 
 					- _id = GUID 28467fd8-c599-48b4-83d1-4930e13dad56;
 					- _name = "tachometr_update_awaiting";
-					- _modifiedTimeWeak = 11.19.2013::23:45:55;
+					- _modifiedTimeWeak = 11.20.2013::10:5:34;
 					- _parent = GUID 8513a58b-1af2-442e-b558-05d0c73f2d14;
 					- _defaultTrans = ;
 					- _nestedStateChart = { IStateChart 
 						- _id = GUID c5f2c000-a601-47a2-be4e-e7b9e5e6d58d;
 						- _myState = 8192;
-						- _modifiedTimeWeak = 11.19.2013::23:45:55;
+						- _modifiedTimeWeak = 11.20.2013::10:5:34;
 						- _lastID = 19;
-						- weakCGTime = 11.19.2013::23:45:55;
+						- weakCGTime = 11.20.2013::10:5:34;
 						- strongCGTime = 1.2.1990::0:0:0;
 						- _multiplicity = "";
 						- _itsStateChart = { IHandle 
@@ -2454,10 +2454,10 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 							}
 							{ ITransition 
 								- _id = GUID 9e910797-e06b-4fcd-b0b0-e99ddffc5bdb;
-								- _modifiedTimeWeak = 11.19.2013::23:39:16;
+								- _modifiedTimeWeak = 11.20.2013::10:5:28;
 								- _itsLabel = { ILabel 
 									- _id = GUID 73adb6de-79c3-471c-8a82-be50432e67f7;
-									- _modifiedTimeWeak = 11.19.2013::23:39:16;
+									- _modifiedTimeWeak = 11.20.2013::10:5:28;
 									- _itsTrigger = { IInterfaceItemTrigger 
 										- _id = GUID abdf4bff-9ef8-4d62-91e0-82a67f14e938;
 										- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -2475,8 +2475,9 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 									- _itsGuard = NULL;
 									- _itsAction = { IAction 
 										- _id = GUID fd20cafd-6692-4c35-bfbe-0ab9e4e24007;
-										- _modifiedTimeWeak = 1.2.1990::0:0:0;
-										- _body = "itsTachometer.gen(new fan_set_min_speed());";
+										- _modifiedTimeWeak = 11.20.2013::10:5:28;
+										- _body = "itsTachometer.gen(new fan_set_min_speed());                            
+itsLCDDisplay.gen(new fan_set_min_speed());";
 									}
 								}
 								- _itsTarget = GUID a59d4b11-7df9-41e9-b8a0-b760e8ba1a72;
@@ -2485,10 +2486,10 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 							}
 							{ ITransition 
 								- _id = GUID b745c372-d556-496c-a193-30a369797f55;
-								- _modifiedTimeWeak = 11.19.2013::23:39:46;
+								- _modifiedTimeWeak = 11.20.2013::10:5:5;
 								- _itsLabel = { ILabel 
 									- _id = GUID 598835cc-5d4b-492a-a604-bb506097aae0;
-									- _modifiedTimeWeak = 11.19.2013::23:39:46;
+									- _modifiedTimeWeak = 11.20.2013::10:5:5;
 									- _itsTrigger = { IInterfaceItemTrigger 
 										- _id = GUID c0638ce4-deb5-4b90-8852-b424501b5637;
 										- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -2506,8 +2507,9 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 									- _itsGuard = NULL;
 									- _itsAction = { IAction 
 										- _id = GUID b43cedea-84c6-4808-a20f-91fb9c17c549;
-										- _modifiedTimeWeak = 1.2.1990::0:0:0;
-										- _body = "itsTachometer.gen(new fan_set_normal_speed());";
+										- _modifiedTimeWeak = 11.20.2013::10:5:5;
+										- _body = "itsTachometer.gen(new fan_set_normal_speed());        
+itsLCDDisplay.gen(new fan_set_normal_speed());";
 									}
 								}
 								- _itsTarget = GUID a59d4b11-7df9-41e9-b8a0-b760e8ba1a72;
@@ -2618,7 +2620,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 							{ IState 
 								- _id = GUID a59d4b11-7df9-41e9-b8a0-b760e8ba1a72;
 								- _name = "fan_control";
-								- _modifiedTimeWeak = 11.19.2013::23:45:55;
+								- _modifiedTimeWeak = 11.20.2013::10:5:34;
 								- _parent = GUID 23b1d97e-178d-4d57-8df4-3079d88bedcc;
 								- _defaultTrans = ;
 							}
@@ -2806,8 +2808,8 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 									}
 								}
 								- _name = "statechartdiagram_0";
-								- _modifiedTimeWeak = 11.19.2013::23:45:55;
-								- _lastModifiedTime = "11.19.2013::23:45:55";
+								- _modifiedTimeWeak = 11.20.2013::10:4:53;
+								- _lastModifiedTime = "11.20.2013::10:5:34";
 								- _graphicChart = { CGIStateChart 
 									- _id = GUID 618e5505-b674-4427-bbd0-ecfc6412437b;
 									- m_type = 0;
@@ -3966,15 +3968,15 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 				{ IState 
 					- _id = GUID 0fd583f6-a7ff-44a8-8b11-ead56d90e832;
 					- _name = "sonsors_initialization";
-					- _modifiedTimeWeak = 11.20.2013::9:35:22;
+					- _modifiedTimeWeak = 11.20.2013::10:35:9;
 					- _parent = GUID b94b6911-85d0-40c9-a80c-52c8a7742316;
 					- _defaultTrans = ;
 					- _nestedStateChart = { IStateChart 
 						- _id = GUID 0355d8eb-577a-4b27-8163-7af5a08258b1;
 						- _myState = 8192;
-						- _modifiedTimeWeak = 11.20.2013::9:35:22;
+						- _modifiedTimeWeak = 11.20.2013::10:35:9;
 						- _lastID = 30;
-						- weakCGTime = 11.20.2013::9:35:22;
+						- weakCGTime = 11.20.2013::10:35:9;
 						- strongCGTime = 1.2.1990::0:0:0;
 						- _multiplicity = "";
 						- _itsStateChart = { IHandle 
@@ -4536,14 +4538,14 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 								- _id = GUID 2b396430-5096-47a3-a765-78a278798d1e;
 								- _myState = 2048;
 								- _name = "sendaction_41";
-								- _modifiedTimeWeak = 11.19.2013::21:6:23;
+								- _modifiedTimeWeak = 11.20.2013::10:10:51;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID 7feccf37-4bb4-41f0-8c18-c923d9fc80b2;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 11.19.2013::21:6:23;
+									- _modifiedTimeWeak = 11.20.2013::10:10:51;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -4603,14 +4605,14 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 								- _id = GUID 52fef2f7-5fdb-49a1-9de5-ceb8357a896e;
 								- _myState = 2048;
 								- _name = "sendaction_44";
-								- _modifiedTimeWeak = 11.20.2013::9:35:22;
+								- _modifiedTimeWeak = 11.20.2013::10:0:52;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID a8a8e83b-865e-4b6f-a305-9118fd368766;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 11.20.2013::9:35:22;
+									- _modifiedTimeWeak = 11.20.2013::10:0:52;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -4663,14 +4665,14 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 								- _id = GUID 57cb6272-2e1f-4458-a98f-c43d82dacbee;
 								- _myState = 2048;
 								- _name = "sendaction_80";
-								- _modifiedTimeWeak = 11.20.2013::9:25:22;
+								- _modifiedTimeWeak = 11.20.2013::10:35:9;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID a1e7494a-1dd8-4b9e-bbc0-cf03a5f77274;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 11.20.2013::9:25:22;
+									- _modifiedTimeWeak = 11.20.2013::10:35:9;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -4956,8 +4958,8 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 									}
 								}
 								- _name = "statechartdiagram_0";
-								- _modifiedTimeWeak = 11.20.2013::9:35:22;
-								- _lastModifiedTime = "11.20.2013::9:35:22";
+								- _modifiedTimeWeak = 11.20.2013::10:35:9;
+								- _lastModifiedTime = "11.20.2013::10:35:9";
 								- _graphicChart = { CGIStateChart 
 									- _id = GUID a5243164-395c-4f25-8887-6cf1606b4275;
 									- m_type = 0;
@@ -8076,7 +8078,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 					- _defaultTrans = ;
 				}
 			}
-			- _version = 11.20.2013::10:36:18;
+			- _version = 11.20.2013::11:35:11;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			- Views = { IRPYRawContainer 
