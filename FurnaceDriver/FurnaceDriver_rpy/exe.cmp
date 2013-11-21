@@ -1,0 +1,131 @@
+I-Logix-RPY-Archive version 8.8.0 Java 6107223
+{ IComponent 
+	- _id = GUID c9d21510-5276-4e5f-a58e-14ff7108ade0;
+	- _myState = 8192;
+	- _name = "exe";
+	- _modifiedTimeWeak = 11.21.2013::22:50:39;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 524725a1-9250-478c-ac83-3ad99cb9e066;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 11.21.2013::22:50:39;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 1;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Default";
+				- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 8e5e1de8-3080-45b5-a269-c0db2845db0d;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 8e5e1de8-3080-45b5-a269-c0db2845db0d;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 11.21.2013::22:50:52;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 9c13c378-877d-42d3-b0d8-4d9d9a2cd06e;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:/SCR/FurnaceDriver/FurnaceDriver/exe/DefaultConfig/exe.bat";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID ef1c816a-48e3-4add-9721-40872daca6dd;
+					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:/SCR/FurnaceDriver/FurnaceDriver/exe/DefaultConfig/Mainexe";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default\\Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Dispatcher";
+					- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 40f3e9ea-4caf-4496-91cb-f5d734c6a487;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 11.21.2013::22:50:52;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 11.21.2013::22:50:39;
+	- strongCGTime = 11.21.2013::22:50:39;
+}
+

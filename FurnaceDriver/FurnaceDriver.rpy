@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c75e472-ce32-437d-96dd-19a64050576e;
 	- _myState = 8192;
 	- _name = "FurnaceDriver";
-	- _modifiedTimeWeak = 11.12.2013::16:20:4;
-	- _lastID = 1;
+	- _modifiedTimeWeak = 11.21.2013::22:49:24;
+	- _lastID = 2;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -19,11 +19,11 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	}
 	- _component = { IHandle 
 		- _m2Class = "IComponent";
-		- _filename = "DefaultComponent.cmp";
+		- _filename = "exe.cmp";
 		- _subsystem = "";
 		- _class = "";
-		- _name = "DefaultComponent";
-		- _id = GUID fac0cab7-476e-4655-8d82-69d9f5a6739e;
+		- _name = "exe";
+		- _id = GUID c9d21510-5276-4e5f-a58e-14ff7108ade0;
 	}
 	- Multiplicities = { IRPYRawContainer 
 		- size = 4;
@@ -191,11 +191,15 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 	}
 	- Components = { IRPYRawContainer 
-		- size = 1;
+		- size = 2;
 		- value = 
 		{ IComponent 
 			- fileName = "DefaultComponent";
 			- _id = GUID fac0cab7-476e-4655-8d82-69d9f5a6739e;
+		}
+		{ IComponent 
+			- fileName = "exe";
+			- _id = GUID c9d21510-5276-4e5f-a58e-14ff7108ade0;
 		}
 	}
 }

@@ -170,16 +170,16 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			}
-			- _UpLeft = 0 206 ;
-			- _DownRight = 1770 938 ;
+			- _UpLeft = 0 100 ;
+			- _DownRight = 2177 1000 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 13;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -199,7 +199,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _id = GUID 8a55ff2a-3681-423f-8651-8cbba7db6c34;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1178 348 ;
+			- _DownRight = 1376 569 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
@@ -227,7 +227,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _id = GUID 83eec58e-3d1a-4668-9be7-e3e474f2e3a9;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1636 740 ;
+			- _DownRight = 713 322 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 6;
 		}
@@ -254,8 +254,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
 			}
-			- _UpLeft = 0 189 ;
-			- _DownRight = 2169 1086 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 3809 1575 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 14;
 		}
@@ -282,8 +282,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
 			}
-			- _UpLeft = 0 424 ;
-			- _DownRight = 2041 1268 ;
+			- _UpLeft = 0 345 ;
+			- _DownRight = 2232 1268 ;
 			- _instanceName = "Dispatcher[0]->itsLCDDisplay";
 			- m_nDiagramIndex = 10;
 		}
@@ -311,7 +311,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _id = GUID 8ecb8ec9-dbd6-48c2-a957-8b0c4f13442d;
 			}
 			- _UpLeft = 0 140 ;
-			- _DownRight = 804 526 ;
+			- _DownRight = 803 526 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 9;
 		}
@@ -374,8 +374,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -394,8 +394,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID 9bfdc58a-0c5e-4258-a201-4fe6ff6e23ac;
 			}
-			- _UpLeft = 0 40 ;
-			- _DownRight = 1376 609 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 3410 1639 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 5;
 		}
@@ -423,7 +423,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _id = GUID 9bfdc58a-0c5e-4258-a201-4fe6ff6e23ac;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 2041 844 ;
+			- _DownRight = 2463 1019 ;
 			- _instanceName = "Dispatcher[0]->itsWaterTemperatureSensor";
 			- m_nDiagramIndex = 12;
 		}

@@ -1,0 +1,107 @@
+I-Logix-RPY-Archive version 8.8.0 * 6107223
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 9;
+	- value = "exe/DefaultConfig/Default/CPU.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/Clock.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/DataProvider.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/Dispatcher.java" 11.21.2013::22:54:57
+	"exe/DefaultConfig/Default/ExternalThermomether.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/LCDDisplay.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/Tachometer.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/WaterPump.java" 11.21.2013::22:51:55
+	"exe/DefaultConfig/Default/WaterTemperatureSensor.java" 11.21.2013::22:51:55
+	
+}
+- size = 10;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Dispatcher";
+	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+}
+- genTime = 11.21.2013::22:54:57;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "DataProvider";
+	- _id = GUID 41c0d4c8-d346-48dd-835c-aa9681f950fe;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Clock";
+	- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "ExternalThermomether";
+	- _id = GUID 9fc0760b-53d4-4cf3-83bd-6d944301eef3;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "CPU";
+	- _id = GUID 1dbe980c-3eee-418e-90bb-e7195f763f4a;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "WaterPump";
+	- _id = GUID 232d0d6d-8fe3-445a-a998-862089fdd4d9;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "LCDDisplay";
+	- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "exe.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "exe\\DefaultConfig";
+	- _id = GUID 8e5e1de8-3080-45b5-a269-c0db2845db0d;
+}
+- genTime = 11.21.2013::22:54:57;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "WaterTemperatureSensor";
+	- _id = GUID e1ddacfb-52fc-440d-b6b0-2864beed02cb;
+}
+- genTime = 11.21.2013::22:51:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default\\Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Tachometer";
+	- _id = GUID 4f561431-b6c3-4ba6-842e-24d9693d3050;
+}
+- genTime = 11.21.2013::22:51:55;
+
