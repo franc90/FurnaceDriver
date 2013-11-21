@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
 	- _myState = 8192;
 	- _name = "Clock";
-	- _modifiedTimeWeak = 11.21.2013::19:26:59;
+	- _modifiedTimeWeak = 11.21.2013::20:30:57;
 	- _lastID = 8;
-	- weakCGTime = 11.21.2013::19:26:59;
+	- weakCGTime = 11.21.2013::20:30:57;
 	- strongCGTime = 11.12.2013::12:29:43;
 	- Operations = { IRPYRawContainer 
 		- size = 13;
@@ -358,9 +358,9 @@ if (seconds>59){
 			- _id = GUID 00bc46ef-4180-4e34-9c74-83e55480599c;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.21.2013::19:26:59;
+			- _modifiedTimeWeak = 11.21.2013::20:30:57;
 			- _lastID = 11;
-			- weakCGTime = 11.21.2013::19:26:59;
+			- weakCGTime = 11.21.2013::20:30:57;
 			- strongCGTime = 11.12.2013::12:29:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -642,14 +642,14 @@ else minutes = 59;";
 					- _id = GUID d05d8b62-ace5-4e92-a33f-9648395b859d;
 					- _myState = 2048;
 					- _name = "sendaction_4";
-					- _modifiedTimeWeak = 11.21.2013::19:26:59;
+					- _modifiedTimeWeak = 11.21.2013::20:30:57;
 					- _parent = GUID e8eb55dc-e012-44bb-99f5-40d50e629d85;
 					- _stateType = EventState;
 					- _defaultTrans = ;
 					- _entryAction = { ISendAction 
 						- _id = GUID ff5859a5-59e4-4c24-8d31-7d61c9aa52f2;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.21.2013::19:26:59;
+						- _modifiedTimeWeak = 11.21.2013::20:30:57;
 						- _body = "";
 						- m_hTarget = { IHandle 
 							- _m2Class = "IAssociationEnd";
@@ -666,7 +666,7 @@ else minutes = 59;";
 					}
 				}
 			}
-			- _version = 11.21.2013::20:26:59;
+			- _version = 11.21.2013::21:30:57;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 12c602f3-18b7-422c-9492-de967638637b;
 			- Views = { IRPYRawContainer 
@@ -817,8 +817,8 @@ else minutes = 59;";
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.21.2013::19:26:32;
-					- _lastModifiedTime = "11.21.2013::19:26:59";
+					- _modifiedTimeWeak = 11.21.2013::20:30:13;
+					- _lastModifiedTime = "11.21.2013::20:30:57";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 266d3699-5835-4cb0-a1e2-8c15d582c11c;
 						- m_type = 0;
