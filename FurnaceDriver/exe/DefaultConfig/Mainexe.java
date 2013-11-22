@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.0.3
-	Login		: Aleksander
+	Login		: kubicz10
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: DefaultConfig
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Mainexe.java
 *********************************************************************/
 

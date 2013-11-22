@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
 	- _myState = 8192;
 	- _name = "LCDDisplay";
-	- _modifiedTimeWeak = 11.21.2013::20:30:57;
-	- _lastID = 12;
-	- weakCGTime = 11.21.2013::20:30:57;
+	- _modifiedTimeWeak = 11.22.2013::2:14:19;
+	- _lastID = 13;
+	- weakCGTime = 11.22.2013::2:14:19;
 	- strongCGTime = 11.12.2013::14:1:49;
 	- Operations = { IRPYRawContainer 
 		- size = 17;
@@ -550,7 +550,16 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 28ef5594-da1d-44ba-a362-756b28709e37;
 			- _myState = 8192;
 			- _name = "fanLedBlinking";
-			- _modifiedTimeWeak = 11.21.2013::20:30:57;
+			- _modifiedTimeWeak = 11.22.2013::1:59:42;
+			- ValueSpecifications = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ILiteralSpecification 
+					- _id = GUID 60c95ddb-833f-4e98-8567-e8e80eb9aa1c;
+					- _modifiedTimeWeak = 11.22.2013::1:59:42;
+					- _value = "false";
+				}
+			}
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -574,9 +583,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID bb3a4ec6-fb69-4af3-8a5a-83c798268d03;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.21.2013::20:30:57;
+			- _modifiedTimeWeak = 11.22.2013::2:14:19;
 			- _lastID = 108;
-			- weakCGTime = 11.21.2013::20:30:57;
+			- weakCGTime = 11.22.2013::2:14:19;
 			- strongCGTime = 11.12.2013::14:1:49;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2613,10 +2622,10 @@ fifthCharacter = \"1\";";
 				}
 				{ ITransition 
 					- _id = GUID 08ed2eca-2692-4423-a0b9-f90dcaacb3ec;
-					- _modifiedTimeWeak = 11.20.2013::10:1:7;
+					- _modifiedTimeWeak = 11.22.2013::2:14:12;
 					- _itsLabel = { ILabel 
 						- _id = GUID f8598025-0e3f-4cab-969a-925da494b512;
-						- _modifiedTimeWeak = 11.20.2013::10:1:7;
+						- _modifiedTimeWeak = 11.22.2013::2:14:12;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID 46fb7397-1faa-47f5-8967-bd8ed01210d7;
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -2634,7 +2643,7 @@ fifthCharacter = \"1\";";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID ff16cc27-6843-482f-8fe4-2b0a53310247;
-							- _modifiedTimeWeak = 11.20.2013::10:1:7;
+							- _modifiedTimeWeak = 11.22.2013::2:14:12;
 							- _body = "fanLedBlinking = false;";
 						}
 					}
@@ -2644,10 +2653,10 @@ fifthCharacter = \"1\";";
 				}
 				{ ITransition 
 					- _id = GUID c20d90fc-d17f-4468-ad8c-97b6f0dc29f5;
-					- _modifiedTimeWeak = 11.20.2013::10:1:19;
+					- _modifiedTimeWeak = 11.22.2013::2:14:19;
 					- _itsLabel = { ILabel 
 						- _id = GUID fbcf34c0-1906-4fe9-adca-4bdee040c013;
-						- _modifiedTimeWeak = 11.20.2013::10:1:19;
+						- _modifiedTimeWeak = 11.22.2013::2:14:19;
 						- _itsTrigger = { IInterfaceItemTrigger 
 							- _id = GUID d4368f7e-d16e-4801-969e-e1e08d763176;
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -2665,7 +2674,7 @@ fifthCharacter = \"1\";";
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID c112a438-e454-4dfd-af71-814416c0126d;
-							- _modifiedTimeWeak = 11.20.2013::10:1:19;
+							- _modifiedTimeWeak = 11.22.2013::2:14:19;
 							- _body = "fanLedBlinking = true;";
 						}
 					}
@@ -3258,32 +3267,33 @@ fifthCharacter = \"\" + dispatcher.itsCPU.hc % 10;";
 				{ IState 
 					- _id = GUID f30bd739-d225-4c6f-b39d-dee35c704430;
 					- _name = "fan_stopped";
-					- _modifiedTimeWeak = 11.20.2013::10:38:37;
+					- _modifiedTimeWeak = 11.22.2013::1:59:55;
 					- _parent = GUID 496a9eec-ce38-4fab-9ec1-62098514fbfd;
 					- _defaultTrans = ;
 					- _entryAction = { IAction 
 						- _id = GUID 46e807f3-43c0-40e0-ae30-74dfec12ebdf;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.20.2013::10:38:37;
+						- _modifiedTimeWeak = 11.22.2013::1:59:55;
 						- _body = "fanOffLed = false;    
-fanLed = false;";
+fanLed = false;    
+fanLedBlinking = false;";
 					}
 				}
 				{ IState 
 					- _id = GUID 2d9a84b5-f53b-47ea-8219-b06a11cf0a1d;
 					- _name = "fan_update";
-					- _modifiedTimeWeak = 11.20.2013::10:9:19;
+					- _modifiedTimeWeak = 11.22.2013::2:13:56;
 					- _parent = GUID 496a9eec-ce38-4fab-9ec1-62098514fbfd;
 					- _defaultTrans = ;
 					- _entryAction = { IAction 
 						- _id = GUID 38cdbbc4-2200-4412-ada9-d558871440e6;
 						- _myState = 4096;
-						- _modifiedTimeWeak = 11.20.2013::10:9:19;
+						- _modifiedTimeWeak = 11.22.2013::2:13:56;
 						- _body = "fanOffLed = true;
 if (fanLedBlinking){
 	fanLed = !fanLed;
 }
-else{
+else{                  
 	fanLed = true;
 }
 ";
@@ -3968,7 +3978,7 @@ else{
 					- _defaultTrans = ;
 				}
 			}
-			- _version = 11.21.2013::21:30:57;
+			- _version = 11.22.2013::3:14:20;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID 08f44df8-ae63-4bb3-b6a7-19c1174efd59;
 			- Views = { IRPYRawContainer 
@@ -4119,8 +4129,8 @@ else{
 						}
 					}
 					- _name = "statechartdiagram_0";
-					- _modifiedTimeWeak = 11.21.2013::20:30:13;
-					- _lastModifiedTime = "11.21.2013::20:30:57";
+					- _modifiedTimeWeak = 11.22.2013::2:13:56;
+					- _lastModifiedTime = "11.22.2013::2:14:19";
 					- _graphicChart = { CGIStateChart 
 						- _id = GUID 95599e78-3bf4-46cb-812d-ee29b9135cc0;
 						- m_type = 0;

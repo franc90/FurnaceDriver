@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 9fc0760b-53d4-4cf3-83bd-6d944301eef3;
 	- _myState = 8192;
 	- _name = "ExternalThermomether";
-	- _modifiedTimeWeak = 11.21.2013::20:58:44;
+	- _modifiedTimeWeak = 11.22.2013::2:0:56;
 	- _lastID = 3;
-	- weakCGTime = 11.21.2013::20:58:44;
+	- weakCGTime = 11.22.2013::2:0:56;
 	- strongCGTime = 11.12.2013::22:12:17;
 	- Operations = { IRPYRawContainer 
 		- size = 1;

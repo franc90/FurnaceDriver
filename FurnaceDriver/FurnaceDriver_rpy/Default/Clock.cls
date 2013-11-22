@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
 	- _myState = 8192;
 	- _name = "Clock";
-	- _modifiedTimeWeak = 11.21.2013::20:30:57;
+	- _modifiedTimeWeak = 11.22.2013::2:0:56;
 	- _lastID = 8;
-	- weakCGTime = 11.21.2013::20:30:57;
+	- weakCGTime = 11.22.2013::2:0:56;
 	- strongCGTime = 11.12.2013::12:29:43;
 	- Operations = { IRPYRawContainer 
 		- size = 13;

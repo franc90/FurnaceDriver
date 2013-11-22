@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 	- _myState = 8192;
 	- _name = "Dispatcher";
-	- _modifiedTimeWeak = 11.21.2013::20:31:15;
+	- _modifiedTimeWeak = 11.22.2013::2:18:31;
 	- _lastID = 15;
-	- weakCGTime = 11.21.2013::20:31:15;
+	- weakCGTime = 11.22.2013::2:18:31;
 	- strongCGTime = 11.12.2013::12:42:27;
 	- Operations = { IRPYRawContainer 
 		- size = 51;
@@ -964,9 +964,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID a60f1be3-7880-4ac7-b571-a8295bdc826e;
 			- _myState = 10240;
 			- _name = "statechart_0";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _lastID = 40;
-			- weakCGTime = 11.21.2013::20:31:15;
+			- weakCGTime = 11.22.2013::2:18:31;
 			- strongCGTime = 11.12.2013::12:42:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2293,15 +2293,15 @@ itsWaterPump.gen(new stop_pump());";
 				{ IState 
 					- _id = GUID 28467fd8-c599-48b4-83d1-4930e13dad56;
 					- _name = "tachometr_update_awaiting";
-					- _modifiedTimeWeak = 11.20.2013::10:5:34;
+					- _modifiedTimeWeak = 11.22.2013::2:2:22;
 					- _parent = GUID 8513a58b-1af2-442e-b558-05d0c73f2d14;
 					- _defaultTrans = ;
 					- _nestedStateChart = { IStateChart 
 						- _id = GUID c5f2c000-a601-47a2-be4e-e7b9e5e6d58d;
 						- _myState = 8192;
-						- _modifiedTimeWeak = 11.20.2013::10:5:34;
+						- _modifiedTimeWeak = 11.22.2013::2:2:22;
 						- _lastID = 19;
-						- weakCGTime = 11.20.2013::10:5:34;
+						- weakCGTime = 11.22.2013::2:2:22;
 						- strongCGTime = 1.2.1990::0:0:0;
 						- _multiplicity = "";
 						- _itsStateChart = { IHandle 
@@ -2507,10 +2507,10 @@ itsWaterPump.gen(new stop_pump());";
 								- _id = GUID d5db139c-5319-46c9-a003-1eb08ae06c97;
 								- _myState = 2048;
 								- _name = "transition_15";
-								- _modifiedTimeWeak = 11.19.2013::22:5:35;
+								- _modifiedTimeWeak = 11.22.2013::2:2:22;
 								- _itsLabel = { ILabel 
 									- _id = GUID f8e30783-c431-4227-8466-fd61b25dc4d3;
-									- _modifiedTimeWeak = 11.19.2013::22:5:35;
+									- _modifiedTimeWeak = 11.22.2013::2:2:22;
 									- _itsTrigger = { IInterfaceItemTrigger 
 										- _id = GUID d4b77eb6-93ec-4c26-933c-6a3fee05f3b0;
 										- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -2528,8 +2528,8 @@ itsWaterPump.gen(new stop_pump());";
 									- _itsGuard = NULL;
 									- _itsAction = { IAction 
 										- _id = GUID f5af0561-59c7-4956-9de5-bc09f3b20add;
-										- _modifiedTimeWeak = 1.2.1990::0:0:0;
-										- _body = "itsLCDDisplay.gen(new updated_speed_value());";
+										- _modifiedTimeWeak = 11.22.2013::2:2:22;
+										- _body = "itsLCDDisplay.gen(new updated_speed_value(params.value));";
 									}
 								}
 								- _itsTarget = GUID 7b41b115-f7c2-4594-8f78-cbc7cf02a7f1;
@@ -3004,8 +3004,8 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 									}
 								}
 								- _name = "statechartdiagram_0";
-								- _modifiedTimeWeak = 11.20.2013::10:4:53;
-								- _lastModifiedTime = "11.20.2013::10:5:34";
+								- _modifiedTimeWeak = 11.22.2013::2:2:22;
+								- _lastModifiedTime = "11.22.2013::2:2:22";
 								- _graphicChart = { CGIStateChart 
 									- _id = GUID 618e5505-b674-4427-bbd0-ecfc6412437b;
 									- m_type = 0;
@@ -3672,7 +3672,7 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 										- m_targetType = 'T';
 										- m_direction = ' ';
 										- m_rpn = { CGIText 
-											- m_str = "updated_speed_value/itsLCDDisplay.gen(new updated_speed_value());";
+											- m_str = "updated_speed_value/itsLCDDisplay.gen(new updated_speed_value(params.value));";
 											- m_style = "Arial" 10 0 0 0 1 ;
 											- m_color = { IColor 
 												- m_fgColor = 0;
@@ -4164,15 +4164,15 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 				{ IState 
 					- _id = GUID 0fd583f6-a7ff-44a8-8b11-ead56d90e832;
 					- _name = "sonsors_initialization";
-					- _modifiedTimeWeak = 11.21.2013::20:30:8;
+					- _modifiedTimeWeak = 11.22.2013::2:18:31;
 					- _parent = GUID b94b6911-85d0-40c9-a80c-52c8a7742316;
 					- _defaultTrans = ;
 					- _nestedStateChart = { IStateChart 
 						- _id = GUID 0355d8eb-577a-4b27-8163-7af5a08258b1;
 						- _myState = 8192;
-						- _modifiedTimeWeak = 11.21.2013::20:30:8;
+						- _modifiedTimeWeak = 11.22.2013::2:18:31;
 						- _lastID = 33;
-						- weakCGTime = 11.21.2013::20:30:8;
+						- weakCGTime = 11.22.2013::2:18:31;
 						- strongCGTime = 1.2.1990::0:0:0;
 						- _multiplicity = "";
 						- _itsStateChart = { IHandle 
@@ -4866,14 +4866,14 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 								- _id = GUID 52fef2f7-5fdb-49a1-9de5-ceb8357a896e;
 								- _myState = 2048;
 								- _name = "sendaction_44";
-								- _modifiedTimeWeak = 11.20.2013::10:0:52;
+								- _modifiedTimeWeak = 11.22.2013::2:13:43;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID a8a8e83b-865e-4b6f-a305-9118fd368766;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 11.20.2013::10:0:52;
+									- _modifiedTimeWeak = 11.22.2013::2:13:43;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -4926,14 +4926,14 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 								- _id = GUID 57cb6272-2e1f-4458-a98f-c43d82dacbee;
 								- _myState = 2048;
 								- _name = "sendaction_80";
-								- _modifiedTimeWeak = 11.21.2013::19:27:28;
+								- _modifiedTimeWeak = 11.22.2013::2:18:31;
 								- _parent = GUID a3241698-c770-4170-ba5c-01510a207edb;
 								- _stateType = EventState;
 								- _defaultTrans = ;
 								- _entryAction = { ISendAction 
 									- _id = GUID a1e7494a-1dd8-4b9e-bbc0-cf03a5f77274;
 									- _myState = 4096;
-									- _modifiedTimeWeak = 11.21.2013::19:27:28;
+									- _modifiedTimeWeak = 11.22.2013::2:18:31;
 									- _body = "";
 									- m_hTarget = { IHandle 
 										- _m2Class = "IPart";
@@ -5253,8 +5253,8 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 									}
 								}
 								- _name = "statechartdiagram_0";
-								- _modifiedTimeWeak = 11.21.2013::20:30:8;
-								- _lastModifiedTime = "11.21.2013::20:30:8";
+								- _modifiedTimeWeak = 11.22.2013::2:18:17;
+								- _lastModifiedTime = "11.22.2013::2:18:31";
 								- _graphicChart = { CGIStateChart 
 									- _id = GUID a5243164-395c-4f25-8887-6cf1606b4275;
 									- m_type = 0;
@@ -8764,7 +8764,7 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 					- _defaultTrans = ;
 				}
 			}
-			- _version = 11.21.2013::21:30:8;
+			- _version = 11.22.2013::3:18:31;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			- Views = { IRPYRawContainer 

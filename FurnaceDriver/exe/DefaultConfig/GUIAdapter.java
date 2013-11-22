@@ -34,22 +34,36 @@ public class GUIAdapter {
 	}
 	
 	public void displayEverything(){
-		if (getFanLed()) 
-			diods[2].setBackground(Color.red);
-		else 
-			diods[2].setBackground(Color.white);
+		if (getFanLed()){
+			if (getFanLedBlinking()) 
+				diods[2].setBackground(Color.blue);
+			else 
+				diods[2].setBackground(Color.red);	
+		}		
+		else{
+			if (getFanLedBlinking()) 
+				diods[2].setBackground(Color.blue);
+			else 
+				diods[2].setBackground(Color.white);		
+		}		
 		if(getFanOffLed())
 			diods[4].setBackground(Color.red);
 		else 
 			diods[4].setBackground(Color.white);
-		if (getFanLedBlinking()) 
-			diods[2].setBackground(Color.red);
-		else 
-			diods[2].setBackground(Color.blue);
+
 		if (getTemperatureLed()) 
 			diods[3].setBackground(Color.red);
 		else 
 			diods[3].setBackground(Color.white);
+			
+		if(getHoursLed()) 
+			diods[0].setBackground(Color.red);
+		else
+			diods[0].setBackground(Color.white);
+		if(getMinutesLed()) 
+			diods[1].setBackground(Color.red);
+		else
+			diods[1].setBackground(Color.white);
 		
 		StringBuffer buffer = new StringBuffer();
         buffer.append(getFirstCharacter()).append(" : ").append(getSecondCharacter())

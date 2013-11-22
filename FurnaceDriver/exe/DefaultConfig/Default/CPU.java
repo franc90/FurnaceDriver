@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.0.3
-	Login		: Aleksander
+	Login		: kubicz10
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: CPU
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/CPU.java
 *********************************************************************/
 
@@ -42,6 +42,8 @@ public class CPU implements RiJStateConcept {
     protected int delta_water_temp;		//## attribute delta_water_temp 
     
     protected int hc = 5;		//## attribute hc 
+    
+    protected boolean hc_on;		//## attribute hc_on 
     
     protected int hn = 2;		//## attribute hn 
     
@@ -165,7 +167,18 @@ public class CPU implements RiJStateConcept {
         	expected_temp += thermoTempDecrease; //minusc param
         }                                 
         
-        expected_temp -= hc; //hc param
+        if (hc_on){
+        	expected_temp -= hc; //hc param 
+        	if (current_water_temperature == expected_temp){
+        		hc_on = false;
+        	}
+        }
+        else{
+        	if (current_water_temperature == expected_temp){
+        		hc_on = true;
+        	}	
+        }
+        
         
         if (current_water_temperature < expected_temp){
         	if (of == 1 && delta_calculated == true && delta_water_temp == 0){
@@ -311,6 +324,16 @@ public class CPU implements RiJStateConcept {
     //## auto_generated 
     public void setHc(int p_hc) {
         hc = p_hc;
+    }
+    
+    //## auto_generated 
+    public boolean getHc_on() {
+        return hc_on;
+    }
+    
+    //## auto_generated 
+    public void setHc_on(boolean p_hc_on) {
+        hc_on = p_hc_on;
     }
     
     //## auto_generated 

@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.0.3
-	Login		: Aleksander
+	Login		: kubicz10
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: LCDDisplay
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/LCDDisplay.java
 *********************************************************************/
 
@@ -29,7 +29,7 @@ public class LCDDisplay implements RiJStateConcept {
     
     protected boolean fanLed;		//## attribute fanLed 
     
-    protected boolean fanLedBlinking;		//## attribute fanLedBlinking 
+    protected boolean fanLedBlinking = false;		//## attribute fanLedBlinking 
     
     protected boolean fanOffLed;		//## attribute fanOffLed 
     
@@ -2143,7 +2143,8 @@ public class LCDDisplay implements RiJStateConcept {
         public void fan_stoppedEnter() {
             //#[ state ready.state_42.fan_stopped.(Entry) 
             fanOffLed = false;    
-            fanLed = false;
+            fanLed = false;    
+            fanLedBlinking = false;
             //#]
         }
         
@@ -2437,7 +2438,7 @@ public class LCDDisplay implements RiJStateConcept {
             if (fanLedBlinking){
             	fanLed = !fanLed;
             }
-            else{
+            else{                  
             	fanLed = true;
             }
             

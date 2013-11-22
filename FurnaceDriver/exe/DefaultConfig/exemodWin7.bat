@@ -1,6 +1,6 @@
 echo off
 
-set RHAP_JARS_DIR=D:\libs
+set RHAP_JARS_DIR=C:\libs
 set FRAMEWORK_ANIM_JARS=%RHAP_JARS_DIR%\oxf.jar;%RHAP_JARS_DIR%\anim.jar;%RHAP_JARS_DIR%\animcom.jar;%RHAP_JARS_DIR%\oxfInst.jar;
 set SOURCEPATH=%SOURCEPATH%
 set CLASSPATH=%CLASSPATH%;%RHAP_JARS_DIR%\oxf.jar;%RHAP_JARS_DIR%\anim.jar;%RHAP_JARS_DIR%\animcom.jar;%RHAP_JARS_DIR%\oxfInstMock.jar;%RHAP_JARS_DIR%\oxfInst.jar;
