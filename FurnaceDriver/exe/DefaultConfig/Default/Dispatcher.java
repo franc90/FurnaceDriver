@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: Dispatcher
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/Dispatcher.java
 *********************************************************************/
 
@@ -28,6 +28,8 @@ public class Dispatcher implements RiJStateConcept {
     public Reactive reactive;		//## ignore 
     
     protected DataProvider dataProvider;		//## attribute dataProvider 
+    
+    protected GUIInterface gui;		//## attribute gui 
     
     protected int initalizations_counter;		//## attribute initalizations_counter 
     
@@ -209,9 +211,29 @@ public class Dispatcher implements RiJStateConcept {
         //#]
     }
     
+    /**
+     * @param guiInterface
+    */
+    //## operation setGuiInteface(GUIInterface) 
+    public void setGuiInteface(final GUIInterface guiInterface) {
+        //#[ operation setGuiInteface(GUIInterface) 
+        gui=guiInterface;
+        //#]
+    }
+    
     //## auto_generated 
     public DataProvider getDataProvider() {
         return dataProvider;
+    }
+    
+    //## auto_generated 
+    public GUIInterface getGui() {
+        return gui;
+    }
+    
+    //## auto_generated 
+    public void setGui(GUIInterface p_gui) {
+        gui = p_gui;
     }
     
     //## auto_generated 

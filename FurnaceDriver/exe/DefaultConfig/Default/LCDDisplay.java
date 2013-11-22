@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: LCDDisplay
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/LCDDisplay.java
 *********************************************************************/
 
@@ -755,7 +755,8 @@ public class LCDDisplay implements RiJStateConcept {
             secondCharacter = "h";  
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsCPU.ch % 100) / 10;
-            fifthCharacter = "" + dispatcher.itsCPU.ch % 10;
+            fifthCharacter = "" + dispatcher.itsCPU.ch % 10;      
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -1029,7 +1030,8 @@ public class LCDDisplay implements RiJStateConcept {
             //#[ state ready.state_20.temperature_settings.(Entry) 
             thirdCharacter = "C";   
             fourthCharacter = "" + (dispatcher.itsCPU.temperature % 100) / 10;
-            fifthCharacter = "" + dispatcher.itsCPU.temperature % 10;
+            fifthCharacter = "" + dispatcher.itsCPU.temperature % 10;  
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -1860,6 +1862,7 @@ public class LCDDisplay implements RiJStateConcept {
             thirdCharacter = "-";   
             fourthCharacter = "" + (java.lang.Math.abs(dispatcher.itsCPU.thermoTempDecrease) % 100) / 10;
             fifthCharacter = "" + java.lang.Math.abs(dispatcher.itsCPU.thermoTempDecrease) % 10;
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -2512,6 +2515,7 @@ public class LCDDisplay implements RiJStateConcept {
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsTachometer.speed % 100) / 10;
             fifthCharacter = "" + dispatcher.itsTachometer.speed % 10;
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
             itsRiJThread.schedTimeout(30000, LCDDisplay_Timeout_po_set_id, this, null);
         }
@@ -2668,7 +2672,8 @@ public class LCDDisplay implements RiJStateConcept {
             secondCharacter = "C"; 
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsCPU.hc % 100) / 10;
-            fifthCharacter = "" + dispatcher.itsCPU.hc % 10;
+            fifthCharacter = "" + dispatcher.itsCPU.hc % 10;        
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
             itsRiJThread.schedTimeout(30000, LCDDisplay_Timeout_HC_set_id, this, null);
         }
@@ -2713,6 +2718,7 @@ public class LCDDisplay implements RiJStateConcept {
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsCPU.of % 100) / 10;
             fifthCharacter = "" + dispatcher.itsCPU.of % 10;
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -2978,6 +2984,10 @@ public class LCDDisplay implements RiJStateConcept {
         
         //## statechart_method 
         public void initEnter() {
+            //#[ state init.(Entry) 
+            
+            
+            //#]
         }
         
         //## statechart_method 
@@ -3056,6 +3066,8 @@ public class LCDDisplay implements RiJStateConcept {
             }
             fourthCharacter = "" + ((int)(params.minutes/10));
             fifthCharacter = "" + ((int)(params.minutes%10));
+            
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -3165,6 +3177,9 @@ public class LCDDisplay implements RiJStateConcept {
         
         //## statechart_method 
         public void error_updateEnter() {
+            //#[ state ready.state_19.error_update.(Entry) 
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
+            //#]
             itsRiJThread.schedTimeout(100, LCDDisplay_Timeout_error_update_id, this, null);
         }
         
@@ -3333,7 +3348,8 @@ public class LCDDisplay implements RiJStateConcept {
             secondCharacter = "n"; 
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsCPU.hn % 100) / 10;
-            fifthCharacter = "" + dispatcher.itsCPU.hn % 10;
+            fifthCharacter = "" + dispatcher.itsCPU.hn % 10;          
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -3395,6 +3411,7 @@ public class LCDDisplay implements RiJStateConcept {
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsTachometer.minSpeed % 100) / 10;
             fifthCharacter = "" + dispatcher.itsTachometer.minSpeed % 10;
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -3565,7 +3582,8 @@ public class LCDDisplay implements RiJStateConcept {
             secondCharacter = "C";
             thirdCharacter = "-";   
             fourthCharacter = "" + (java.lang.Math.abs(dispatcher.itsCPU.nighttimeTempDecrease) % 100) / 10;
-            fifthCharacter = "" + java.lang.Math.abs(dispatcher.itsCPU.nighttimeTempDecrease) % 10;
+            fifthCharacter = "" + java.lang.Math.abs(dispatcher.itsCPU.nighttimeTempDecrease) % 10;                       
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         
@@ -4097,6 +4115,9 @@ public class LCDDisplay implements RiJStateConcept {
         public int sendaction_5Takedispatcher_init_finished() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             sendaction_5_exit();
+            //#[ transition 2 
+            if (dispatcher.gui != null) dispatcher.gui.registerLCDDisplay(dispatcher.itsLCDDisplay);
+            //#]
             ready_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -4150,6 +4171,8 @@ public class LCDDisplay implements RiJStateConcept {
             }
             fourthCharacter = "" + ((int)(params.minutes/10));
             fifthCharacter = "" + ((int)(params.minutes%10));
+            
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -4166,7 +4189,8 @@ public class LCDDisplay implements RiJStateConcept {
             secondCharacter = "r";    
             thirdCharacter = "0";   
             fourthCharacter = "" + (dispatcher.itsCPU.hr % 100) / 10;
-            fifthCharacter = "" + dispatcher.itsCPU.hr % 10;
+            fifthCharacter = "" + dispatcher.itsCPU.hr % 10;                     
+            if (dispatcher.gui != null) dispatcher.gui.screen(firstCharacter,secondCharacter,thirdCharacter,fourthCharacter,fifthCharacter);
             //#]
         }
         

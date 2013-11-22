@@ -49,6 +49,6 @@ public class DataProviderImpl implements DataProvider {
     }
 
     private boolean isFanSpeedPositive() {
-    	return fanSpeed > 60;
+    	return fanSpeed > 50;
     }
 }

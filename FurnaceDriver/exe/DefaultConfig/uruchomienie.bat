@@ -1,1 +1,1 @@
-start exemodWIN7.bat run MainDefaultComponentMod
+start exemodWIN7.bat run MainexeMod

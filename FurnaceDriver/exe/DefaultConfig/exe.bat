@@ -29,16 +29,17 @@ if "%1" == "run" goto run
 
 :clean
 echo cleaning class files
-if exist Default\ExternalThermomether.class del Default\ExternalThermomether.class
-if exist Default\WaterTemperatureSensor.class del Default\WaterTemperatureSensor.class
 if exist Default\DataProvider.class del Default\DataProvider.class
-if exist Default\Dispatcher.class del Default\Dispatcher.class
-if exist Mainexe.class del Mainexe.class
-if exist Default\CPU.class del Default\CPU.class
 if exist Default\Clock.class del Default\Clock.class
-if exist Default\LCDDisplay.class del Default\LCDDisplay.class
-if exist Default\WaterPump.class del Default\WaterPump.class
 if exist Default\Tachometer.class del Default\Tachometer.class
+if exist Default\CPU.class del Default\CPU.class
+if exist Default\Dispatcher.class del Default\Dispatcher.class
+if exist Default\WaterTemperatureSensor.class del Default\WaterTemperatureSensor.class
+if exist Mainexe.class del Mainexe.class
+if exist Default\WaterPump.class del Default\WaterPump.class
+if exist Default\ExternalThermomether.class del Default\ExternalThermomether.class
+if exist Default\GUIInterface.class del Default\GUIInterface.class
+if exist Default\LCDDisplay.class del Default\LCDDisplay.class
 
 if "%1" == "clean" goto end
 
