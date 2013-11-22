@@ -45,6 +45,23 @@ public class MainexeMod {
         p_Dispatcher.startBehavior();
         //#[ configuration exe::DefaultConfig 
         //#]
+				new Thread()
+        {
+            public void run() {
+			    GUIAdapter guiAdapter = new GUIAdapter();
+				guiAdapter.setDisplay(p_Dispatcher.getItsLCDDisplay());
+            	while(true){
+					try{
+						Thread.sleep(1000);
+						guiAdapter.displayEverything(); 
+                    } catch(Exception e){
+						System.out.println("dah");
+					}
+					           		
+            	}
+
+            }
+        }.start();
         RiJOXF.Start();
         p_Dispatcher=null;
     }
