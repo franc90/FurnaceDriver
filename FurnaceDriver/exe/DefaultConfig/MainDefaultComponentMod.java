@@ -235,7 +235,14 @@ public class MainDefaultComponentMod extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 guiAdapter.clockButtonClick();
-
+                if(guiAdapter.getHoursLed()) 
+                    diods[0].setBackground(Color.red);
+                else
+                    diods[0].setBackground(Color.white);
+                if(guiAdapter.getMinutesLed()) 
+                    diods[1].setBackground(Color.red);
+                else
+                    diods[1].setBackground(Color.white);
             }
         });
         

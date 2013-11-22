@@ -16,7 +16,6 @@ public class DataProviderImpl implements DataProvider {
     //## operation getExternalTemp() 
     @Override
     public int getExternalTemp() {
-        System.out.println("getExternalTemp");
     	if (isFanSpeedPositive()) {
     		if (externalTemp < 99) {
     			return ++externalTemp;
@@ -30,7 +29,7 @@ public class DataProviderImpl implements DataProvider {
     //## operation getWaterTemp() 
     @Override
     public int getWaterTemp() {
-        System.out.println("getWaterTemp");
+       
     	if (isFanSpeedPositive()) {
     		if (waterTemp < 99) {
     			return ++waterTemp;
@@ -44,11 +43,11 @@ public class DataProviderImpl implements DataProvider {
     //## operation isFanBroken() 
     @Override
     public boolean isFanBroken() {
-    	System.out.println("isFanBroken");
     	return isFanBroken;
     }
 
     private boolean isFanSpeedPositive() {
+         System.out.println(fanSpeed);
     	return fanSpeed > 60;
     }
 }

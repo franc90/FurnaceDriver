@@ -2,6 +2,7 @@ Default/ExternalThermomether.java
 Default/WaterTemperatureSensor.java
 Default/DataProvider.java
 Default/Dispatcher.java
+Default/get_water_temperature.java
 MainexeMod.java
 DataProviderImpl.java
 Default/CPU.java
