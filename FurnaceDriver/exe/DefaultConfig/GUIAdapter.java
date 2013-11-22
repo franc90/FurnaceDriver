@@ -42,7 +42,10 @@ public class GUIAdapter {
 			diods[4].setBackground(Color.red);
 		else 
 			diods[4].setBackground(Color.white);
-		System.out.println("Fan blinking led :" + getFanLedBlinking());
+		if (getFanLedBlinking()) 
+			diods[2].setBackground(Color.red);
+		else 
+			diods[2].setBackground(Color.blue);
 		if (getTemperatureLed()) 
 			diods[3].setBackground(Color.red);
 		else 
