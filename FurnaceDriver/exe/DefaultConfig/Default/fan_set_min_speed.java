@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.0.3
-	Login		: Aleksander
+	Login		: kubicz10
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: fan_set_min_speed
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/fan_set_min_speed.java
 *********************************************************************/
 

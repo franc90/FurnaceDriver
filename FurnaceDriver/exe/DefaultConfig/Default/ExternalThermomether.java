@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: ExternalThermomether
-//!	Generated Date	: Fri, 22, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/ExternalThermomether.java
 *********************************************************************/
 
@@ -563,6 +563,9 @@ public class ExternalThermomether implements RiJStateConcept {
         public int sendaction_5Takedispatcher_init_finished() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             sendaction_5_exit();
+            //#[ transition 8 
+            current_external_temperature=1;
+            //#]
             ready_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;

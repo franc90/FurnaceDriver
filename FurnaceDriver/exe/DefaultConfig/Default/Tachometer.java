@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: Tachometer
-//!	Generated Date	: Fri, 22, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/Tachometer.java
 *********************************************************************/
 
@@ -843,6 +843,11 @@ public class Tachometer implements RiJStateConcept {
         public int sendaction_8Takedispatcher_init_finished() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             sendaction_8_exit();
+            //#[ transition 2 
+            fanOn=false;
+            fullSpeedOn=true;
+            current_speed=98;
+            //#]
             running_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;

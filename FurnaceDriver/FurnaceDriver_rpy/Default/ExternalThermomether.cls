@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 60ce9059-0d77-41bd-bc98-415ce76de44d;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -43,7 +43,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID cb33704f-e27d-4077-a36d-74068cf37ece;
 			- _myState = 8192;
 			- _name = "current_external_temperature";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -71,7 +71,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 9e2a77e5-03c5-4599-bdfd-80c43c74f517;
 			- _myState = 8192;
 			- _name = "isOk";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -1863,7 +1863,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID f6d44dba-8aab-4e48-8575-ad29a79b31f3;
 			- _myState = 8192;
 			- _name = "parent";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

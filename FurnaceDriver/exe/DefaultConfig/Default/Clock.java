@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: Clock
-//!	Generated Date	: Fri, 22, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/Clock.java
 *********************************************************************/
 
@@ -338,6 +338,9 @@ public class Clock implements RiJStateConcept {
         public int sendaction_4Takedispatcher_init_finished() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             sendaction_4_exit();
+            //#[ transition 4 
+                hours=18;
+            //#]
             clock_on_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;

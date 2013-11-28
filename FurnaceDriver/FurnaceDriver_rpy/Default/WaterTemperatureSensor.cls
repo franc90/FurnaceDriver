@@ -21,7 +21,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 28617f43-7a3a-4163-8857-1aa2a70205f4;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -43,7 +43,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 2e482bd0-3b3e-459a-8d0d-53427a45d492;
 			- _myState = 8192;
 			- _name = "current_water_temperature";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -71,7 +71,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 8a3e4130-4bd8-417d-acc2-b5bdc446dc1d;
 			- _myState = 8192;
 			- _name = "isOk";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -261,7 +261,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _itsGuard = NULL;
 						- _itsAction = { IAction 
 							- _id = GUID 393c1fe8-a378-4663-b135-5736899c7b7f;
-							- _modifiedTimeWeak = 1.1.1970::1:0:0;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _body = "current_water_temperature=48;";
 						}
 					}
@@ -1970,7 +1970,7 @@ if (current_water_temperature < 0) {
 			- _id = GUID 62fa4a42-efca-43d9-ab31-a4b19ec8a9b9;
 			- _myState = 8192;
 			- _name = "parent";
-			- _modifiedTimeWeak = 11.28.2013::21:53:54;
+			- _modifiedTimeWeak = 11.28.2013::22:54:43;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

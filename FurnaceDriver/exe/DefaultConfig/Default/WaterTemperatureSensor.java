@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: WaterTemperatureSensor
-//!	Generated Date	: Fri, 22, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/WaterTemperatureSensor.java
 *********************************************************************/
 
@@ -581,6 +581,9 @@ public class WaterTemperatureSensor implements RiJStateConcept {
         public int sendaction_7Takedispatcher_init_finished() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             sendaction_7_exit();
+            //#[ transition 7 
+            current_water_temperature=48;
+            //#]
             ready_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;

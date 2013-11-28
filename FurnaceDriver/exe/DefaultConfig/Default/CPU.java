@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: CPU
-//!	Generated Date	: Thu, 28, Nov 2013 
+//!	Generated Date	: Fri, 29, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/CPU.java
 *********************************************************************/
 
@@ -55,13 +55,13 @@ public class CPU implements RiJStateConcept {
     
     protected int minutes_from_last_measurement;		//## attribute minutes_from_last_measurement 
     
-    protected int nighttimeTempDecrease = -10;		//## attribute nighttimeTempDecrease 
+    protected int nighttimeTempDecrease = 0;		//## attribute nighttimeTempDecrease 
     
     protected int of = 0;		//## attribute of 
     
     protected int temperature = 50;		//## attribute temperature 
     
-    protected int thermoTempDecrease = -5;		//## attribute thermoTempDecrease 
+    protected int thermoTempDecrease = 0;		//## attribute thermoTempDecrease 
     
     protected boolean thermo_decrease;		//## attribute thermo_decrease 
     
@@ -161,13 +161,23 @@ public class CPU implements RiJStateConcept {
         //#[ operation calculate_fan_speed() 
         int expected_temp = temperature;
         if (is_nighttime){
-        	expected_temp += nighttimeTempDecrease; //minusC param
+        	expected_temp -= nighttimeTempDecrease; //minusC param
         }                                       
         if (thermo_decrease){
-        	expected_temp += thermoTempDecrease; //minusc param
+        	expected_temp -= thermoTempDecrease; //minusc param
         }                                 
         
-        expected_temp -= hc; //hc param
+        if (hc_on){
+        	expected_temp -= hc; //hc param 
+        	if (current_water_temperature == expected_temp){
+        		hc_on = false;
+        	}
+        }
+        else{
+        	if (current_water_temperature == expected_temp){
+        		hc_on = true;
+        	}  
+        }
         
         if (current_water_temperature < expected_temp){
         	if (of == 1 && delta_calculated == true && delta_water_temp == 0){
@@ -226,7 +236,7 @@ public class CPU implements RiJStateConcept {
     //## operation is_thermo_on() 
     public void is_thermo_on() {
         //#[ operation is_thermo_on() 
-        if (current_external_temperature == 1){
+        if (current_external_temperature > 30){
         	thermo_decrease = true;
         }  
         else {
