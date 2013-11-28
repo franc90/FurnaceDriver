@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c75e472-ce32-437d-96dd-19a64050576e;
 	- _myState = 8192;
 	- _name = "FurnaceDriver";
-	- _modifiedTimeWeak = 11.28.2013::21:54:13;
+	- _modifiedTimeWeak = 11.28.2013::22:50:49;
 	- _lastID = 2;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -252,7 +252,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 			}
 			- _name = "Animated zmianaGodziny_1";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "11.28.2013::21:37:53";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
@@ -333,10 +333,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- m_pICollaboration = { ICollaboration 
 				- _id = GUID 809de41f-917d-4ca4-95fc-4e0f635185d2;
-				- _modifiedTimeWeak = 1.1.1970::1:0:0;
-				- ClassifierRoles = { IRPYRawContainer 
-					- size = 0;
-				}
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			}
 		}
 	}
