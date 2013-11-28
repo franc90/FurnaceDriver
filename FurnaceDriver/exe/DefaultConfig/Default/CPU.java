@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: CPU
-//!	Generated Date	: Fri, 22, Nov 2013 
+//!	Generated Date	: Thu, 28, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/CPU.java
 *********************************************************************/
 
@@ -167,18 +167,7 @@ public class CPU implements RiJStateConcept {
         	expected_temp += thermoTempDecrease; //minusc param
         }                                 
         
-        if (hc_on){
-        	expected_temp -= hc; //hc param 
-        	if (current_water_temperature == expected_temp){
-        		hc_on = false;
-        	}
-        }
-        else{
-        	if (current_water_temperature == expected_temp){
-        		hc_on = true;
-        	}	
-        }
-        
+        expected_temp -= hc; //hc param
         
         if (current_water_temperature < expected_temp){
         	if (of == 1 && delta_calculated == true && delta_water_temp == 0){
@@ -237,7 +226,7 @@ public class CPU implements RiJStateConcept {
     //## operation is_thermo_on() 
     public void is_thermo_on() {
         //#[ operation is_thermo_on() 
-        if (current_external_temperature > 30){
+        if (current_external_temperature == 1){
         	thermo_decrease = true;
         }  
         else {

@@ -11,9 +11,527 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
 	- _myState = 8192;
 	- _name = "Dispatcher";
-	- _modifiedTimeWeak = 11.22.2013::2:18:31;
-	- _lastID = 15;
-	- weakCGTime = 11.22.2013::2:18:31;
+	- _modifiedTimeWeak = 11.28.2013::21:53:54;
+	- _lastID = 16;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IMSC 
+			- _id = GUID 2350b0c2-0a58-4155-b8f1-3051d1f90918;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "InstanceLine";
+								- Properties = { IRPYRawContainer 
+									- size = 7;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,96,437";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Weight@Child.NameCompartment@Name";
+										- _Value = "700";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "109,163,217";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "0";
+										- _Type = Int;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Diagram sekwencji";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _lastModifiedTime = "11.28.2013::21:53:25";
+			- _graphicChart = { CGIMscChart 
+				- vLadderMargin = 20;
+				- m_usingActivationBar = 0;
+				- _id = GUID d9c3ffe6-beca-495e-ae22-b6b6bf64a8a9;
+				- m_type = 0;
+				- m_pModelObject = { IHandle 
+					- _m2Class = "IMSC";
+					- _id = GUID 2350b0c2-0a58-4155-b8f1-3051d1f90918;
+				}
+				- m_pParent = ;
+				- m_name = { CGIText 
+					- m_str = "";
+					- m_style = "Arial" 10 0 0 0 1 ;
+					- m_color = { IColor 
+						- m_fgColor = 0;
+						- m_bgColor = 0;
+						- m_bgFlag = 0;
+					}
+					- m_position = 1 0 0  ;
+					- m_nIdent = 0;
+					- m_bImplicitSetRectPoints = 0;
+					- m_nOrientationCtrlPt = 8;
+				}
+				- m_drawBehavior = 0;
+				- m_bIsPreferencesInitialized = 0;
+				- elementList = 7;
+				{ CGIBox 
+					- _id = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_type = 108;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "ICollaboration";
+						- _id = GUID 0bb85c8f-415f-4a1a-b500-ce19f18b9e5c;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 0;
+					- m_polygon = 0 ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID 6e6e5a87-17c1-4008-b7f4-4fff45fc37f1;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID baa2d76e-8932-4227-b7bb-dd39e8329682;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = "Dispatcher.itsClock:Clock";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 1212 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID e1cab333-e722-4404-bc98-d69f9e32c7a7;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID d70432e8-80cb-4fdf-9146-614b465d5fd4;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = "Dispatcher.itsCPU:CPU";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 980 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID b55a7670-8d48-4912-940a-a0f527fb8ed4;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID fe990614-81eb-47c7-88ab-e5f13ba37d1d;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = ":Dispatcher";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 742 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID 227e4ad3-17e0-4248-81dd-75cfa36487e6;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID cc16318f-77bc-4270-88a0-9c0af947fc7b;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = "Dispatcher.itsWaterTemperatureSensor:WaterTemperatureSensor";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 543 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID 92accf87-cd20-4996-8ae9-b56e2deb513e;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID bd7bbdd8-e718-4035-bc1c-454843e502b6;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = "Dispatcher.itsTachometer:Tachometer";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 359 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				{ CGIMscColumnCR 
+					- _id = GUID ede83e82-7392-4d50-a217-bc5b0f7aef5a;
+					- m_type = 109;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IClassifierRole";
+						- _id = GUID a4ab8a61-e720-4d16-88ce-042b03281044;
+					}
+					- m_pParent = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+					- m_name = { CGIText 
+						- m_str = "Dispatcher.itsLCDDisplay:LCDDisplay";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_transform = 1 0 0 0.00876015 117 50 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_position = 4 0 0  0 49885  96 49885  96 0  ;
+					- m_pInheritsFrom = { IHandle 
+						- _m2Class = "";
+					}
+					- m_nInheritanceMask = 0;
+					- m_SubType = 0;
+				}
+				
+				- m_access = 'Z';
+				- m_modified = 'N';
+				- m_fileVersion = "";
+				- m_nModifyDate = 0;
+				- m_nCreateDate = 0;
+				- m_creator = "";
+				- m_bScaleWithZoom = 1;
+				- m_arrowStyle = 'S';
+				- m_pRoot = GUID e147ac23-3373-47b0-85ae-89585d82e9f6;
+				- m_currentLeftTop = 0 0 ;
+				- m_currentRightBottom = 0 0 ;
+			}
+			- _defaultSubsystem = { IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "Default\\Default.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Default";
+				- _id = GUID dc273dcc-ec6a-4257-97c3-73c0831260b7;
+			}
+			- m_pICollaboration = { ICollaboration 
+				- _id = GUID 0bb85c8f-415f-4a1a-b500-ce19f18b9e5c;
+				- _modifiedTimeWeak = 1.1.1970::1:0:0;
+				- ClassifierRoles = { IRPYRawContainer 
+					- size = 6;
+					- value = 
+					{ IClassifierRole 
+						- _id = GUID fe990614-81eb-47c7-88ab-e5f13ba37d1d;
+						- _myState = 2048;
+						- _modifiedTimeWeak = 11.28.2013::21:40:38;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID 768ae538-24e4-40b1-8527-cf98dd09b2b1;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID a4ab8a61-e720-4d16-88ce-042b03281044;
+						- _name = "Dispatcher.itsLCDDisplay";
+						- _modifiedTimeWeak = 11.28.2013::21:44:28;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Default\\Default.sbs";
+							- _subsystem = "Default";
+							- _class = "";
+							- _name = "LCDDisplay";
+							- _id = GUID 625f508f-a207-4a79-b57c-5972806d72f0;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID d70432e8-80cb-4fdf-9146-614b465d5fd4;
+						- _name = "Dispatcher.itsCPU";
+						- _modifiedTimeWeak = 11.28.2013::21:44:31;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Default\\Default.sbs";
+							- _subsystem = "Default";
+							- _class = "";
+							- _name = "CPU";
+							- _id = GUID 1dbe980c-3eee-418e-90bb-e7195f763f4a;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID 05216a2e-adbb-4ae2-b3b3-079ea69c1d4e;
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID baa2d76e-8932-4227-b7bb-dd39e8329682;
+						- _name = "Dispatcher.itsClock";
+						- _modifiedTimeWeak = 11.28.2013::21:44:38;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Default\\Default.sbs";
+							- _subsystem = "Default";
+							- _class = "";
+							- _name = "Clock";
+							- _id = GUID b1453221-c60c-4adc-8e39-27054b54a257;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID 00f44595-155e-4cc7-8032-b67ec19ab3b8;
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID cc16318f-77bc-4270-88a0-9c0af947fc7b;
+						- _name = "Dispatcher.itsWaterTemperatureSensor";
+						- _modifiedTimeWeak = 11.28.2013::21:53:19;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Default\\Default.sbs";
+							- _subsystem = "Default";
+							- _class = "";
+							- _name = "WaterTemperatureSensor";
+							- _id = GUID e1ddacfb-52fc-440d-b6b0-2864beed02cb;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID dcb61906-b820-4135-9cd7-256dd905fc8b;
+						}
+					}
+					{ IClassifierRole 
+						- _id = GUID bd7bbdd8-e718-4035-bc1c-454843e502b6;
+						- _name = "Dispatcher.itsTachometer";
+						- _modifiedTimeWeak = 11.28.2013::21:53:22;
+						- m_eRoleType = CLASS;
+						- m_pBase = { IHandle 
+							- _m2Class = "IClass";
+							- _filename = "Default\\Default.sbs";
+							- _subsystem = "Default";
+							- _class = "";
+							- _name = "Tachometer";
+							- _id = GUID 4f561431-b6c3-4ba6-842e-24d9693d3050;
+						}
+						- m_instance = { IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID eccc24f2-56c5-4bb4-8fa9-0823a0d3fca6;
+						}
+					}
+				}
+			}
+		}
+	}
+	- weakCGTime = 11.28.2013::21:53:54;
 	- strongCGTime = 11.12.2013::12:42:27;
 	- Operations = { IRPYRawContainer 
 		- size = 51;
@@ -21,7 +539,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1f65b33a-5a14-4cf4-9a30-d9bd2c8c5276;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -38,7 +556,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID bca83137-2fb6-4164-aec3-b46b7ae2d1e8;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -55,7 +573,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 2b009180-6b6d-4dba-8b6b-b0a5cd732a22;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -72,7 +590,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1dd14f75-98dd-4a69-a2b6-f889c4d180f0;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -89,7 +607,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 3b80a814-7e64-4c43-9ff8-612344290078;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -106,7 +624,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 49681c31-d55a-41a0-9efd-e78cb0c5bf64;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -123,7 +641,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 27803616-a67a-47c6-945c-0836d44fba05;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -140,7 +658,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 7477505b-a175-487f-b265-5c2d84c890d9;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -157,7 +675,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 8256363f-99e4-4688-9954-734c0ad000b8;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -174,7 +692,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID b718bdaf-b416-4107-9333-1d70e656682c;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -191,7 +709,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1e938baa-98ba-4c71-932d-875800e02c85;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -208,7 +726,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 0cdc4c9c-70cc-44c9-9a19-2bdb0de57e9a;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -225,7 +743,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 455e6d8f-fe5a-44b0-97a2-931849458429;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -242,7 +760,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 1db09f3b-69eb-4e6f-84b6-0af7f8928fb7;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -259,7 +777,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID e265a23d-62e5-4c26-a2f6-4e534934d7d8;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -276,7 +794,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 402eeb7c-ad10-4125-861e-30ce70263948;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -293,7 +811,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 50b9bb36-79b1-4ebd-b4a1-d153e65bb96a;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -310,7 +828,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 92f029c2-9ec4-4e6a-8273-89a5d892ed6e;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -327,7 +845,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 5b78e9ae-5905-42f7-b3f6-7da54c7e324c;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -344,7 +862,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 2b3317d4-738b-42f0-8c59-3d57e2f77a33;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -361,7 +879,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID e01414de-ccae-41ae-981e-e6794302e04e;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -378,7 +896,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 34a5a552-a3ec-4533-aedb-f9c3888ed58b;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -395,7 +913,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 10db6fb7-9cc3-4175-ab93-f3d860476f91;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -412,7 +930,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID f4795e8d-7f96-4e30-972d-e983d9188d64;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -429,7 +947,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID ac1ebfee-0991-4e4f-bc44-df377438f1f8;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -446,7 +964,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID c67d3a00-8e75-46f2-9404-95b2811ac70d;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -463,7 +981,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID bef15237-acfe-4beb-b1e6-d528e091924c;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -480,7 +998,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 66452030-97b3-4daf-bc50-b2e0ecb43e3d;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -497,7 +1015,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID f52639c4-91d7-4d77-9fc1-fff368a433b9;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -514,7 +1032,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 2ee257b5-1d6f-4775-8fc6-92d75db5066b;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -531,7 +1049,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID eb7514d8-222a-4800-af16-49f29b30d8c2;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -548,7 +1066,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 7353ae14-695a-4ba2-8b70-f4412a9b693c;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -565,7 +1083,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 30207587-f26d-4538-8046-4333cd7b5f50;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -582,7 +1100,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 9c04d3e2-bf9b-48ae-a602-744ae6a212b0;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -599,7 +1117,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID ce31a6a5-dc11-4986-8051-be75fce63822;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -616,7 +1134,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 7fbd9589-c854-4ac5-9adc-010aa9fb3125;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -633,7 +1151,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID d5831f65-b457-4b86-8fc4-290bc52bd59f;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -650,7 +1168,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 7b19e8e2-f176-47dc-967c-9216c46c3a78;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -667,7 +1185,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 73131899-9a70-441e-b827-7f738f40759a;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -684,7 +1202,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 99cf11d9-eb48-4b44-be16-b4eef7936fa9;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -701,7 +1219,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 22842372-52c0-4994-8c52-f9de4e05ef36;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -718,7 +1236,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 9a2df7b9-db6f-4ac8-9f35-839c50a4a624;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -735,7 +1253,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID e7d947f2-785b-4827-b681-5b05b55f368f;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -752,7 +1270,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 027db1c0-3126-41cb-81a7-05cdb931293a;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -769,7 +1287,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID def9c0cc-8b4d-4cb9-baef-d98bc6ea73c5;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -786,7 +1304,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID c42f2a9a-a46f-4c05-90b2-702aac0b4127;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -803,7 +1321,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 5f8bd87f-62ca-4bfa-8c3a-dfa824e7dfbf;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -820,7 +1338,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 164a1efc-7a0b-49f7-8b20-12cdd32078ef;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -837,7 +1355,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 63077fc2-529c-463e-b879-33b79e74ec66;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -854,7 +1372,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IReception 
 			- _id = GUID 0f7b034d-a3c2-41f8-bdce-859ac85315a1;
 			- _myState = 8192;
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -872,7 +1390,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 8b58d197-6f95-415c-894e-5b703bbd73fd;
 			- _myState = 8192;
 			- _name = "setDataProvider";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _lastID = 1;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
@@ -921,7 +1439,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 5445b2d2-372a-471f-aa67-f681f8cde28e;
 			- _myState = 8192;
 			- _name = "initalizations_counter";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _typeOf = { IHandle 
 				- _m2Class = "IType";
 				- _filename = "PredefinedTypesJava.sbs";
@@ -940,7 +1458,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 8da602aa-231d-4dd6-b0fc-8d83a0641d89;
 			- _myState = 8192;
 			- _name = "dataProvider";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _typeOf = { IHandle 
 				- _m2Class = "IClass";
 				- _filename = "Default\\Default.sbs";
@@ -8764,7 +9282,7 @@ itsLCDDisplay.gen(new fan_set_normal_speed());";
 					- _defaultTrans = ;
 				}
 			}
-			- _version = 11.22.2013::3:18:31;
+			- _version = 11.28.2013::22:54:7;
 			- _baseVersion = 1.2.1990::0:0:0;
 			- _diagram = GUID ceb0db89-89c3-4f6b-bf38-b1c7f101398f;
 			- Views = { IRPYRawContainer 
@@ -11780,7 +12298,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID 00f44595-155e-4cc7-8032-b67ec19ab3b8;
 			- _myState = 10240;
 			- _name = "itsClock";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11803,7 +12321,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID 9bfd3105-e6ec-404d-a785-821f4a53ff4d;
 			- _myState = 10240;
 			- _name = "itsLCDDisplay";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11826,7 +12344,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID 2f912eb5-4846-4d96-b973-853c49579546;
 			- _myState = 10240;
 			- _name = "itsExternalThermomether";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11849,7 +12367,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID eccc24f2-56c5-4bb4-8fa9-0823a0d3fca6;
 			- _myState = 10240;
 			- _name = "itsTachometer";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11872,7 +12390,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID dcb61906-b820-4135-9cd7-256dd905fc8b;
 			- _myState = 10240;
 			- _name = "itsWaterTemperatureSensor";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11895,7 +12413,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID 05216a2e-adbb-4ae2-b3b3-079ea69c1d4e;
 			- _myState = 10240;
 			- _name = "itsCPU";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";
@@ -11918,7 +12436,7 @@ itsLCDDisplay.gen(new update_water_temperature(params.value));";
 			- _id = GUID 8f34a0f1-b4e3-4172-8ed7-93d5373701e0;
 			- _myState = 10240;
 			- _name = "itsWaterPump";
-			- _modifiedTimeWeak = 11.21.2013::20:31:15;
+			- _modifiedTimeWeak = 11.22.2013::2:18:31;
 			- _multiplicity = "1";
 			- _otherClass = { IClassifierHandle 
 				- _m2Class = "IClass";

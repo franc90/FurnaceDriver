@@ -1,3 +1,7 @@
 [Op Calls]
 [Events]
+Dispatcher->GEN(increase_hc())`Default::Dispatcher
+Dispatcher.itsLCDDisplay:LCDDisplay->GEN(time_changed())`Default::LCDDisplay
+itsLCDDisplay:LCDDisplay->GEN(time_changed())`Default::LCDDisplay
+role_0:LCDDisplay->GEN(increase_button_click())`Default::LCDDisplay
 [Breakpoints]
