@@ -691,7 +691,7 @@ public class CPU implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             update_parameter_exit();
             //#[ transition 17 
-            if (nighttimeTempDecrease < 0){
+            if (nighttimeTempDecrease < 20){
             	nighttimeTempDecrease++;
             }
             //#]
@@ -1114,7 +1114,7 @@ public class CPU implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             update_parameter_exit();
             //#[ transition 16 
-            if (nighttimeTempDecrease > -20){
+            if (nighttimeTempDecrease > 0){
             	nighttimeTempDecrease--;
             }
             //#]
@@ -1203,7 +1203,7 @@ public class CPU implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             update_parameter_exit();
             //#[ transition 12 
-            if (thermoTempDecrease < 0){
+            if (thermoTempDecrease < 20){
             	thermoTempDecrease++;
             }
             //#]
@@ -1259,7 +1259,7 @@ public class CPU implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             update_parameter_exit();
             //#[ transition 13 
-            if (thermoTempDecrease > -20){
+            if (thermoTempDecrease > 0){
             	thermoTempDecrease--;
             }
             //#]

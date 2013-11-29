@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c75e472-ce32-437d-96dd-19a64050576e;
 	- _myState = 8192;
 	- _name = "FurnaceDriver";
-	- _modifiedTimeWeak = 11.28.2013::23:41:15;
+	- _modifiedTimeWeak = 11.29.2013::0:26:10;
 	- _lastID = 2;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
